@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "name": "what-ocr-evaluation-reveals-and-conceals",
-  "release_state": "Approved initial public release; no new project-wide reuse license applied",
+  "release_state": "Supervisor review branch diagnostic follow-up; not final or archival approval",
   "coverage": "All staged files except MANIFEST.json itself and locally generated work/ contents. The manifest cannot hash itself.",
   "files": [
     {
@@ -556,6 +556,27 @@
       "sha256": "da7ad5e2a2cb10513324724c176ac11bf57ae5ab994425d5e128a390044b57d2",
       "origin": "Documented staging addition",
       "justification": "Requested validation receipt, with human licensing/release approval still pending."
+    },
+    {
+      "path": "diagnostics/fixed_window_2026-11-15/run.py",
+      "bytes": 7195,
+      "sha256": "0a7779915371bda2c1b79c80ff8420434013b359a2f47f6f42011a009d793c47",
+      "origin": "Separate local diagnostic follow-up",
+      "justification": "Authorized controlled scope investigation; no restricted source text or new human relevance judgments."
+    },
+    {
+      "path": "diagnostics/fixed_window_2026-11-15/results.json",
+      "bytes": 42361,
+      "sha256": "d80329c9662707c31b35434e1b476ec7f3b7a8c2e6b4c0010465a2d3b959334d",
+      "origin": "Separate local diagnostic follow-up",
+      "justification": "Authorized controlled scope investigation; no restricted source text or new human relevance judgments."
+    },
+    {
+      "path": "diagnostics/fixed_window_2026-11-15/README.md",
+      "bytes": 2594,
+      "sha256": "eb8fb7d9e3be791ba17b6c6157673fdf075aa3f322f9a7b06a969a26f73291a8",
+      "origin": "Separate local diagnostic follow-up",
+      "justification": "Authorized controlled scope investigation; no restricted source text or new human relevance judgments."
     }
   ],
   "readme_previews": [
