@@ -1,8 +1,8 @@
-# What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR
+# What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books
 
-This repository provides reproducible code, aggregate evidence, and figure-generation assets for examining the reliability of OCR evaluation on printed Kazakh books.
+This repository provides code, aggregate evaluation evidence and figure-generation assets for investigating reference integrity, representation sensitivity and positional-target retrieval diagnostics in printed Kazakh books.
 
-The study investigates reference integrity in poetry, reference agreement and text-representation sensitivity in prose, and failure modes in legacy positional-target retrieval evaluation. It distinguishes reference-distance measurements from absolute OCR accuracy and diagnostic retrieval records from evidence of retrieval effectiveness.
+**Reproducibility limits.** Public commands check saved arithmetic, conditional resampling, file integrity and figure generation. They do not constitute complete end-to-end experimental reproduction. Full source-grounded recomputation requires the underlying book scans, reference transcriptions and complete OCR outputs. Those materials are not publicly distributed: study-use permission does not automatically establish redistribution rights. Archived-output rescoring requires the separately authorized texts identified below; historical OCR service inference is not reproduced.
 
 ## Visual Overview
 
@@ -51,6 +51,10 @@ The public checks verify saved edit-count arithmetic, reproduce seven-page condi
 
 Table numbers refer to the final six-table manuscript. Figure 3 is the heading/target trace. The superseded MRR bar chart is excluded.
 
+## Controlled fixed-window diagnostic
+
+A separate [scope-removal diagnostic](diagnostics/fixed_window_2026-11-15/README.md) reproduces the original Tesseract positional MRR of 0.4460912866. Removing only the identified glossary changes it to 0.9229629630 with the same queries and ranking settings. Independently sized blocks change boundaries when total token count changes. This supports a glossary-related effect on the legacy metric, not retrieval effectiveness or a disproof of token fragmentation. Historical results remain unchanged under results/. The diagnostic adds no independent queries or content judgments.
+
 ## Environment
 
 Use Python **3.12**, tested with **3.12.1**. The pinned packages are RapidFuzz 3.14.6, NumPy 2.4.4, Matplotlib 3.10.9, ReportLab 5.0.0 and PyMuPDF 1.28.0.
@@ -61,11 +65,11 @@ Create an environment using your normal Python environment manager, activate it,
 
     python -m pip install -r requirements.txt
 
-The dependency versions were tested using an existing local installation. A fresh network installation and other operating systems were not tested. No OCR engine, model weights, GPU, TeX installation, API credential or cloud account is needed for public checks.
+The pinned dependencies were installed successfully in a clean Python 3.12.1 virtual environment and the public checks were tested there. Other operating systems were not tested. No OCR engine, model weights, GPU, TeX installation, API credential or cloud account is needed for public checks.
 
 ## Run the public checks
 
-Run the following commands from the package root in this order. They write only below work/, which is excluded from the staged inventory. Use -B to suppress Python cache files.
+Run the following commands from the package root in this order. They write only below work/, which is excluded from the file manifest. Use -B to suppress Python cache files.
 
     python -B code/reproduce.py environment --output work/environment.json
     python -B code/reproduce.py verify --output work/aggregate_verification.json
@@ -77,9 +81,9 @@ Run the following commands from the package root in this order. They write only 
 
 Expected outcomes are PASS and exit 0 for the checks and figure commands, and 11 tests with OK. The final gate command intentionally produces status BLOCKED, performance_metrics null and expected_blocked_template true, with wrapper exit 0. It confirms that an empty prospective template emits no empirical retrieval scores.
 
-The figure command uses the unchanged final generator in a temporary copy and writes three PDFs to work/figures. It leaves the authoritative PDFs under figures/ untouched. The preview command writes three PDF-derived PNGs under work/readme_previews. The staged previews under figures/readme/ are checked against those same PDF pages.
+The figure command uses the unchanged final generator in a temporary copy and writes three PDFs to work/figures. It leaves the authoritative PDFs under figures/ untouched. The preview command writes three PDF-derived PNGs under work/readme_previews. The included previews under figures/readme/ are checked against those same PDF pages.
 
-MANIFEST.json identifies every staged file except itself and the local generated work/ contents. It includes each file's hash, source classification and addition rationale. It also records the source-PDF and generated-PNG hashes for the three README previews. A manifest verifies integrity; it does not grant reuse rights.
+MANIFEST.json records SHA-256 hashes and byte lengths for the package files other than itself. Generated work/ outputs are excluded. The integrity check validates the complete recorded file set; it does not grant reuse rights.
 
 ## Optional archived-output replay
 
@@ -106,6 +110,12 @@ For the three-input paired representation check:
 
 This preserves the exact crop, normalization and unit-cost alignment procedure. It requires RapidFuzz 3.14.6. The optional --dp-json argument accepts a separately authorized raw extraction identified by its recorded digest. It corroborates page grounding. It is unnecessary for the representation distances and does not convey access rights.
 
+For the controlled window diagnostic, using the same authorized inputs:
+
+    python -B diagnostics/fixed_window_2026-11-15/run.py --release . --input-root ../authorized_inputs --output work/fixed_window_diagnostic.json
+
+The optional --original-script argument accepts the recovered local evaluation script for independent function-level comparison. It is unnecessary for the diagnostic replay. The preserved receipt records that comparison.
+
 Historical OCR inference and external spelling services cannot be reconstructed merely by replaying stored output evaluation. This package makes no service calls.
 
 ## Evidence boundaries
@@ -130,7 +140,7 @@ Historical OCR inference and external spelling services cannot be reconstructed 
 - templates/ contains the empty prospective evaluator bundle.
 - validation/ contains release test and exclusion receipts.
 
-[Included-file manifest](MANIFEST.json) · [Staging provenance and additions](STAGING_PROVENANCE.json) · [Validation receipt](validation/release_validation.json) · [Exclusion verification](validation/EXCLUSION_VERIFICATION.md)
+[File-integrity manifest](MANIFEST.json) · [Source-access policy](SOURCE_ACCESS.md)
 
 ## Repository contributors
 
@@ -143,6 +153,6 @@ This list identifies repository contributors without assigning additional roles.
 
 ## Citation and reuse
 
-Use [CITATION.cff](CITATION.cff) for the staged software/artifact package and associated manuscript metadata. The software record lists the two repository contributors. Its preferred manuscript citation preserves the approved title and all six scholarly authors. The existing repository URL is recorded; no DOI or publication date is assigned.
+Use [CITATION.cff](CITATION.cff) for the software/artifact package and associated manuscript metadata. The software record lists the two repository contributors. Its preferred manuscript citation preserves the approved title and all six scholarly authors. The existing repository URL is recorded; no DOI or publication date is assigned.
 
 No project-wide reuse license has been assigned. See [RIGHTS_AND_REUSE.md](RIGHTS_AND_REUSE.md) and [DATA_POLICY.md](DATA_POLICY.md) for permissions, reuse conditions, and data exclusions.

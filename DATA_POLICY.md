@@ -1,6 +1,6 @@
 # Data policy
 
-Project: **What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR**
+Project: **What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books**
 
 ## Included material
 

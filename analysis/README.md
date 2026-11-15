@@ -1,6 +1,6 @@
 # Paired representation sensitivity
 
-Project: **What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR**
+Project: **What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books**
 
 analysis/results.json preserves eight rows for the two common-scan outputs. The four representations use original normalized characters, lowercase normalized characters, characters in lowercase WER tokens joined by one space, and the same token lists aligned as words.
 

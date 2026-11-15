@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "name": "what-ocr-evaluation-reveals-and-conceals",
-  "release_state": "Supervisor review branch diagnostic follow-up; not final or archival approval",
+  "name": "what-ocr-scores-conceal",
+  "release_state": "Supervisor review branch; not a final approved release or archival deposit",
   "coverage": "All staged files except MANIFEST.json itself and locally generated work/ contents. The manifest cannot hash itself.",
   "files": [
     {
@@ -13,8 +13,8 @@
     },
     {
       "path": "analysis/README.md",
-      "bytes": 1710,
-      "sha256": "f5526905e6b1dbd6f8db53809f0798376365e9ce3b472de0e855298596893c74",
+      "bytes": 1690,
+      "sha256": "be1fc2bea320733077262a6f36bd51a6f3686a72290f3fe637f52226f5ef5ca2",
       "origin": "Documented staging addition",
       "justification": "Requested portable representation-analysis instructions."
     },
@@ -36,17 +36,17 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2195,
-      "sha256": "99220994f887635c47cf245c7f22f6c9c81f39ea7a604da60535a37271fce57b",
+      "bytes": 2803,
+      "sha256": "00af0a8d0a36124d82e18b173e60b4c5504f203953f41510b604f01bbd51dff0",
       "origin": "Documented staging addition",
       "justification": "Requested local staging release description."
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1567,
-      "sha256": "67bc1af3f09f0ce90e8524c8d3898a8d97621c2354becdc32be7952eca5a4c17",
+      "bytes": 1530,
+      "sha256": "7b4ecad88496a29b5a0ba91ecb511d5b9394cd4b666dce4f842257eb8ca00503",
       "origin": "Documented staging addition",
-      "justification": "Requested repository software citation with the two named contributors and existing repository URL; unchanged preferred manuscript citation with its approved title and all six authors. No DOI or publication date invented."
+      "justification": "Selected software/manuscript title and renamed repository URL updated for review; two software authors and all six scholarly author records preserved; no DOI or publication details invented."
     },
     {
       "path": "code/a_scoring.py",
@@ -119,8 +119,8 @@
     },
     {
       "path": "DATA_POLICY.md",
-      "bytes": 1931,
-      "sha256": "272e8a4113b36dc89e183597bb21a16364dbb59509740c94a89b3cbc57aad149",
+      "bytes": 1911,
+      "sha256": "e7537317124a975c02391abf21882bbfdfaf60471025590e2959de3b28323fe8",
       "origin": "Documented staging addition",
       "justification": "Requested aggregate/restricted-data policy."
     },
@@ -383,15 +383,15 @@
     },
     {
       "path": "OUTSTANDING_DECISIONS.md",
-      "bytes": 1355,
-      "sha256": "86b2fdb703466813e9b5a15931f4db6dbdcbe1fdbeb201803f5a094c7a47f88a",
+      "bytes": 1201,
+      "sha256": "c52a0ba1c46e44dbdcd3bc766d07b2b56dc1bd05d4c23d129a260cd560727601",
       "origin": "Documented staging addition",
       "justification": "Requested unresolved human decisions."
     },
     {
       "path": "README.md",
-      "bytes": 13267,
-      "sha256": "aef2dd9e1f727f1b2a6d476e527441247a3217dee07f6007665f560f70311c9d",
+      "bytes": 14406,
+      "sha256": "8d10a5bba985b08478155b1a33a33f4a2ae78140d3d6b7951ec072905e19bf53",
       "origin": "Documented staging addition",
       "justification": "Requested final-methodology documentation and inline Visual Overview."
     },
@@ -516,15 +516,15 @@
     },
     {
       "path": "RIGHTS_AND_REUSE.md",
-      "bytes": 2155,
-      "sha256": "3d2b674f57d4c12a93e67b18ffc2ce84f2c3643c825af5f8571af11a560ddb0e",
+      "bytes": 2339,
+      "sha256": "2c2571e01de6c226d0d2262778ba057a4d795a63e9cfc7552031b5bbf1b91eb1",
       "origin": "Documented staging addition",
       "justification": "Requested unresolved licensing-authority notice and preserved third-party terms."
     },
     {
       "path": "SOURCE_ACCESS.md",
-      "bytes": 3065,
-      "sha256": "3d9babb056040a8b1955d212ec530ab786de421d3f2e82e794f101bc277333a3",
+      "bytes": 3045,
+      "sha256": "dd0f939806dc784cb49c350e5a49a9536db0ec2834f12060bc5939d00adbe5ae",
       "origin": "Documented staging addition",
       "justification": "Requested accurate source-access notice; no external access promise."
     },
@@ -617,6 +617,6 @@
       "method": "Full PDF page rendered with PyMuPDF, RGB, no crop or redraw"
     }
   ],
-  "repository": "https://github.com/ahsan-h-shihab/what-ocr-evaluation-reveals-and-conceals",
-  "title": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR"
+  "repository": "https://github.com/ahsan-h-shihab/what-ocr-scores-conceal",
+  "title": "What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books"
 }

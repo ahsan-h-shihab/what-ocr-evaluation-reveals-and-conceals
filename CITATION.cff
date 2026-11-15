@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite this artifact package and its associated manuscript when using these materials. Initial public distribution is approved; no project-wide reuse license has been applied."
 type: software
-title: "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR"
-repository-code: "https://github.com/ahsan-h-shihab/what-ocr-evaluation-reveals-and-conceals"
+title: "What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books"
+repository-code: "https://github.com/ahsan-h-shihab/what-ocr-scores-conceal"
 authors:
   - family-names: "Shihab"
     given-names: "Ahsan Habib"
@@ -12,7 +12,7 @@ authors:
     orcid: "https://orcid.org/0000-0002-3221-9352"
 preferred-citation:
   type: unpublished
-  title: "Retrieval-Aware Evaluation of Printed Kazakh Book OCR: Reference Integrity, Transcription, and Structural Diagnostics"
+  title: "What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books"
   authors:
     - family-names: "Shihab"
       given-names: "Ahsan Habib"

@@ -1,6 +1,6 @@
 # Source access
 
-Project: **What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR**
+Project: **What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books**
 
 Study-use permissions for the book scans, digital references and archived OCR outputs were confirmed by the authors. Public redistribution permission and unrestricted reviewer access have not been established. The particular source materials are excluded from this package.
 

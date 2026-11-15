@@ -1,6 +1,17 @@
 # Changelog
 
-Project: **What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR**
+Project: **What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books**
+
+## 2026-11-16 - Supervisor review branch
+
+- Public-safe pre-pass revisions submitted on a separate review branch. Scientific PASS and archival licensing confirmation remain pending; this is not a final release.
+
+## Local pre-pass revisions (2026-11-15; unpublished)
+
+- Selected manuscript/software title and renamed repository URL updated.
+- README now distinguishes public checks from full recomputation.
+- Separate controlled fixed-window sensitivity and numeric receipt added; historical scores unchanged.
+- Licensing confirmation remains pending before archival release; no LICENSE, deposit, DOI or new release.
 
 ## 2026-11-15 - Approved initial public release
 

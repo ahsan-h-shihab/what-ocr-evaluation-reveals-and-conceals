@@ -1,6 +1,6 @@
 # Rights and reuse
 
-Project: **What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR**
+Project: **What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Books**
 
 **The repository owner confirmed the required publication permissions and human approvals for the reviewed 68-file release.** No project-wide reuse license has been applied. This document is a status notice, not a license grant. MIT and CC BY 4.0 have not been applied. A project LICENSE file will be added only after an authorized rights holder selects the applicable terms.
 
@@ -15,3 +15,5 @@ figures/fonts/NotoSans-Regular.ttf and NotoSans-Bold.ttf are original Noto Sans 
 Python dependencies are referenced by version and are not bundled as installed runtime trees. Their respective licenses remain applicable. No new license is asserted for them.
 
 The PNG previews are direct rasterizations of the approved vector diagrams. They add no scientific content and follow the diagrams' unresolved project-artifact reuse status. STAGING_PROVENANCE.json documents the additional staging files.
+
+Archival licensing remains subject to Prof. Madina Mansurova’s confirmation. No LICENSE will be added before that confirmation. The local pre-pass revisions are not a new public or archival release.
