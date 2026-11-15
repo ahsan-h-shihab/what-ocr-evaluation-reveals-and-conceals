@@ -1,0 +1,285 @@
+{
+  "status": "PASS — local staging validation; not publication approval",
+  "validated_utc": "2026-11-15T03:52:16.338209+00:00",
+  "scope": "Code, numeric aggregates and approved three-figure assets only. No new OCR, empirical retrieval judgments, reference adjudication or performance scores.",
+  "staged_file_count": 68,
+  "byte_identical_A_allowlist_copies": 48,
+  "documented_additions": 20,
+  "tests": [
+    {
+      "command": "python -B code/reproduce.py environment --output work/environment.json",
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true
+    },
+    {
+      "command": "python -B code/reproduce.py verify --output work/aggregate_verification.json",
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true
+    },
+    {
+      "command": "python -B code/release_checks.py --output work/release_checks.json",
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true
+    },
+    {
+      "command": "python -B code/reproduce.py figures --output work/figures",
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true
+    },
+    {
+      "command": "python -B code/render_readme_previews.py --output work/readme_previews",
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true
+    },
+    {
+      "command": "python -B -m unittest discover -s code/prospective -p test_*.py -v",
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true
+    },
+    {
+      "command": "python -B code/reproduce.py gate --output work/prospective_gate.json",
+      "exit": 0,
+      "expected_exit": 0,
+      "passed": true
+    },
+    {
+      "command": "python -B code/reproduce.py evaluate --input-root ../unavailable_inputs --output work/missing_input_check.json",
+      "exit": 2,
+      "expected_exit": 2,
+      "passed": true
+    }
+  ],
+  "synthetic_tests_passed": 11,
+  "runtime": {
+    "python": "3.12.1",
+    "packages": {
+      "rapidfuzz": "3.14.6",
+      "numpy": "2.4.4",
+      "matplotlib": "3.10.9",
+      "reportlab": "5.0.0",
+      "PyMuPDF": "1.28.0"
+    },
+    "fresh_dependency_install_tested": false,
+    "note": "Existing installed dependencies, including an existing RapidFuzz installation, were used. No private source-input fallback was used."
+  },
+  "aggregate_checks": {
+    "status": "PASS",
+    "package_members_verified": 67,
+    "A_primary_S_D_rows": 10,
+    "A_page_count_rows": 35,
+    "B_original_operation_rows": 6,
+    "legacy_retrieval_rows": 9,
+    "scope": "Integrity, aggregate arithmetic, preserved page-count resampling, numeric source-effect records. Does not verify a gold target, source images, human judgments or retrieval effectiveness."
+  },
+  "figure_checks": {
+    "status": "PASS",
+    "figures": [
+      {
+        "figure": "Fig1_pipeline.pdf",
+        "sha256": "65831bfeaf772240abe0ee94192dfb9c6bd1969871d412a653fd780ad5cfcf39",
+        "byte_identical_to_authoritative": true
+      },
+      {
+        "figure": "Fig2_reference_sensitivity.pdf",
+        "sha256": "c0a227d26aac531801964bd2fb818972c0cf7f391d53721a0a22fb2f20691e34",
+        "byte_identical_to_authoritative": true
+      },
+      {
+        "figure": "Fig3_positional_target.pdf",
+        "sha256": "098ad7684d5a1846defac67426a110b9164b7281a45ebad33e7f80d91c40783c",
+        "byte_identical_to_authoritative": true
+      }
+    ],
+    "scope": "Current three-figure generation. Figure 2 asserts both bar series against its saved CSV. No scoring or inference.",
+    "rendering_note": "Byte identity is recorded for the pinned tested environment. The authoritative PDFs remain unchanged."
+  },
+  "preview_checks": {
+    "all_three_visually_compared": true,
+    "full_page_300_dpi_RGB": true,
+    "pixel_equivalence_to_PDF_rendering_checked": true,
+    "three_previews_total_bytes": 245552,
+    "cropping_or_glyph_defects_observed": false,
+    "source_and_preview_hashes": "MANIFEST.json: readme_previews"
+  },
+  "readme_layout_checks": {
+    "method": "Offline PyMuPDF HTML layout using only staged assets; no live GitHub rendering or upload.",
+    "desktop": {
+      "width": 980,
+      "layout_pages": 3,
+      "embedded_previews": 3
+    },
+    "mobile": {
+      "width": 390,
+      "layout_pages": 5,
+      "embedded_previews": 3
+    },
+    "limitation": "Offline narrow-layout proof does not emulate GitHub horizontal table scrolling. Live GitHub rendering remains untested; the existing Markdown table and all figure links are preserved."
+  },
+  "exclusion_checks": {
+    "status": "PASS",
+    "staged_file_count": 68,
+    "approved_copies": 48,
+    "documented_additions": 20,
+    "copied_B_or_C_sources": 0,
+    "archives": 0,
+    "archive_members": 0,
+    "archive_scan": "Every staged file checked for ZIP structure; archive extensions absent. No archive members to distribute.",
+    "approved_vector_PDFs": [
+      "figures/Fig1_pipeline.pdf",
+      "figures/Fig2_reference_sensitivity.pdf",
+      "figures/Fig3_positional_target.pdf"
+    ],
+    "approved_PNG_previews": [
+      "figures/readme/Fig1_pipeline.png",
+      "figures/readme/Fig2_reference_sensitivity.png",
+      "figures/readme/Fig3_positional_target.png"
+    ],
+    "approved_fonts": [
+      "figures/fonts/NotoSans-Bold.ttf",
+      "figures/fonts/NotoSans-Regular.ttf"
+    ],
+    "restricted_input_hashes_checked": 15,
+    "known_restricted_hashes_compared": 29,
+    "credential_email_machine_path_long_passage_findings": [],
+    "unapproved_personal_contacts": 0,
+    "historical_conference_materials": 0,
+    "private_evidence_or_photographs": 0,
+    "readme_captions_match_manuscript": true,
+    "citation_authors_and_ORCIDs": 6,
+    "project_license_applied": false,
+    "limitations": "Pattern/hash scans and approved-source boundary checks cannot prove every possible secret absent. All selected text files were scanned. No opaque archive or unrelated binary is distributed.",
+    "repository_contributors": 2,
+    "manuscript_citation_authors": 6
+  },
+  "project_preservation": {
+    "status": "PASS",
+    "baseline_file_count": 13054,
+    "current_file_count": 13054,
+    "differences": [],
+    "added": [],
+    "removed": []
+  },
+  "integrity": "MANIFEST.json hashes all other staged files. Public integrity checks are rerun after sealing; the manifest cannot hash itself. Work products are retained outside the final staging directory.",
+  "limitations": [
+    "Public checks verify saved aggregate arithmetic and selected resampling, not fresh alignments of excluded full texts.",
+    "Historical OCR inference and BM25 rankings cannot be regenerated from aggregates alone.",
+    "No fresh network dependency install, cross-platform validation or live GitHub render was performed.",
+    "Pattern, hash and content scans do not prove absence of every imaginable secret."
+  ],
+  "outstanding_human_decisions": [
+    "Confirm licensing authority and approve applicable reuse terms; no MIT or CC BY 4.0 applied.",
+    "Review the complete inventory and explicitly authorize any later public release."
+  ],
+  "publication_actions_performed": false,
+  "repository_identity_checks": {
+    "status": "PASS",
+    "readme_H1_exact": true,
+    "repository_url": "https://github.com/ahsan-h-shihab/what-ocr-evaluation-reveals-and-conceals",
+    "software_authors": 2,
+    "manuscript_authors": 6,
+    "no_AI_author_or_contributor": true,
+    "preferred_manuscript_citation_byte_identical": true,
+    "visual_overview_text_unchanged": true,
+    "all_figure_assets_byte_identical": true,
+    "obsolete_slug_references": 0
+  },
+  "remote_verification": "Repository URL and existing empty status supplied by the user. Read-only connector and web inspection failed; remote state was not independently verified. No remote mutation was attempted.",
+  "manuscript_preservation": {
+    "status": "PASS",
+    "pre_edit_files_checked": 6,
+    "covers": "Current manuscript main.tex, PDF figures/manuscript and source ZIP; pre-edit digests retained in external review evidence. Entire 13,054-file project also unchanged."
+  },
+  "project_title": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR",
+  "canonical_title_update": {
+    "title": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR",
+    "about_description": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR",
+    "about_setting_changed": false,
+    "manual_step": "Set About description only after separate settings authorization.",
+    "scope": "Local identity documentation only; no scientific or manuscript changes."
+  },
+  "canonical_title_validation": {
+    "status": "PASS",
+    "project_title": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR",
+    "canonical_locations": [
+      {
+        "path": "README.md",
+        "canonical_title_occurrences": 2
+      },
+      {
+        "path": "CHANGELOG.md",
+        "canonical_title_occurrences": 1
+      },
+      {
+        "path": "OUTSTANDING_DECISIONS.md",
+        "canonical_title_occurrences": 2
+      },
+      {
+        "path": "SOURCE_ACCESS.md",
+        "canonical_title_occurrences": 1
+      },
+      {
+        "path": "RIGHTS_AND_REUSE.md",
+        "canonical_title_occurrences": 1
+      },
+      {
+        "path": "DATA_POLICY.md",
+        "canonical_title_occurrences": 1
+      },
+      {
+        "path": "analysis/README.md",
+        "canonical_title_occurrences": 1
+      },
+      {
+        "path": "validation/EXCLUSION_VERIFICATION.md",
+        "canonical_title_occurrences": 1
+      },
+      {
+        "path": "CITATION.cff",
+        "canonical_title_occurrences": 1
+      },
+      {
+        "path": "STAGING_PROVENANCE.json",
+        "canonical_title_occurrences": 3
+      },
+      {
+        "path": "MANIFEST.json",
+        "canonical_title_occurrences": 1
+      },
+      {
+        "path": "validation/release_validation.json",
+        "canonical_title_occurrences": 3
+      }
+    ],
+    "inconsistent_title_hits": [],
+    "old_slug_hits": 0,
+    "software_authors": 2,
+    "manuscript_authors": 6,
+    "entire_CITATION_cff_byte_identical": true,
+    "preferred_manuscript_citation_byte_identical": true,
+    "visual_overview_unchanged": true,
+    "rendered_markdown_images": [
+      {
+        "alt": "Two transcription comparisons for poetry and prose, an archived retrieval track with positional targets, and a separate dashed prospective retrieval design.",
+        "src": "figures/readme/Fig1_pipeline.png"
+      },
+      {
+        "alt": "Paired hatched and solid CER bars for five unchanged poetry transcriptions evaluated against the supplied reference S and provisional single-copy draft D.",
+        "src": "figures/readme/Fig2_reference_sensitivity.png"
+      },
+      {
+        "alt": "The section 8 title query matches the suffix of the section 18 heading; chunk 8 begins inside that heading, ranks first and receives positional credit.",
+        "src": "figures/readme/Fig3_positional_target.png"
+      }
+    ],
+    "figure_assets_byte_identical": true,
+    "About_description": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR",
+    "About_setting_changed": false,
+    "live_GitHub_Markdown_render_tested": false
+  }
+}

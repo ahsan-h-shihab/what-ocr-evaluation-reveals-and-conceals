@@ -1,0 +1,36 @@
+count,error_class,share_of_edit_ops,system
+2658,deletion,0.5145180023228804,DeepSeek-OCR
+1160,substitution,0.22454510259388308,DeepSeek-OCR
+1348,insertion,0.26093689508323653,DeepSeek-OCR
+63,kazakh_specific:қ/к,0.012195121951219513,DeepSeek-OCR
+19,kazakh_specific:ү/у,0.003677893921796361,DeepSeek-OCR
+93,kazakh_specific:ң/н,0.018002322880371662,DeepSeek-OCR
+20,kazakh_specific:ғ/г,0.0038714672861014324,DeepSeek-OCR
+37,kazakh_specific:ә/а,0.0071622144792876504,DeepSeek-OCR
+26,kazakh_specific:ұ/у,0.005032907471931862,DeepSeek-OCR
+13,kazakh_specific:і/и,0.002516453735965931,DeepSeek-OCR
+1,kazakh_specific:ө/о,0.00019357336430507162,DeepSeek-OCR
+1457,substitution,0.15154982317453713,DP-2-mini / LandingAI
+1,kazakh_specific:ө/о,0.00010401497815685458,DP-2-mini / LandingAI
+144,kazakh_specific:ң/н,0.01497815685458706,DP-2-mini / LandingAI
+2726,deletion,0.2835448304555856,DP-2-mini / LandingAI
+85,kazakh_specific:ұ/у,0.00884127314333264,DP-2-mini / LandingAI
+100,kazakh_specific:қ/к,0.01040149781568546,DP-2-mini / LandingAI
+5431,insertion,0.5649053463698772,DP-2-mini / LandingAI
+29,kazakh_specific:ү/у,0.003016434366548783,DP-2-mini / LandingAI
+46,kazakh_specific:ғ/г,0.004784688995215311,DP-2-mini / LandingAI
+40,kazakh_specific:ә/а,0.004160599126274184,DP-2-mini / LandingAI
+12,kazakh_specific:і/и,0.001248179737882255,DP-2-mini / LandingAI
+1,kazakh_specific:һ/х,0.00010401497815685458,DP-2-mini / LandingAI
+9556,insertion,0.6482599552269181,Tesseract
+1637,substitution,0.11105081066413405,Tesseract
+3548,deletion,0.24068923410894782,Tesseract
+94,kazakh_specific:қ/к,0.0063767722678244355,Tesseract
+65,kazakh_specific:ә/а,0.004409470185197748,Tesseract
+20,kazakh_specific:ң/н,0.0013567600569839224,Tesseract
+25,kazakh_specific:і/и,0.001695950071229903,Tesseract
+14,kazakh_specific:ғ/г,0.0009497320398887456,Tesseract
+10,kazakh_specific:ұ/у,0.0006783800284919612,Tesseract
+3,kazakh_specific:ө/о,0.00020351400854758835,Tesseract
+13,kazakh_specific:ү/у,0.0008818940370395495,Tesseract
+4,kazakh_specific:һ/х,0.0002713520113967845,Tesseract

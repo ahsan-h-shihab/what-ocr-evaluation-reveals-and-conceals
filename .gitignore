@@ -1,0 +1,85 @@
+# Local environments and installed dependencies
+.venv/
+venv/
+env/
+site-packages/
+node_modules/
+# Generated outputs and caches
+work/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+# Credentials and private configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*token*.local*
+*.local.json
+*.local.yaml
+# Raw/restricted research material and private evidence
+authorized_inputs/
+restricted_inputs/
+raw/
+data/raw/
+data/restricted/
+scans/
+page_images/
+book_scans/
+author_photos/
+OCR Authors/
+OCR experiments/
+audit/
+private/
+manuscript/
+submission_ready/
+*.ipynb
+# Archives and model/runtime binaries
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.safetensors
+*.exe
+*.dll
+# Only the approved vector figures and derived README previews are selected
+*.pdf
+!figures/Fig1_pipeline.pdf
+!figures/Fig2_reference_sensitivity.pdf
+!figures/Fig3_positional_target.pdf
+*.png
+!figures/readme/Fig1_pipeline.png
+!figures/readme/Fig2_reference_sensitivity.png
+!figures/readme/Fig3_positional_target.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.webp
+# Manuscript build intermediates
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+*.fls
+*.fdb_latexmk
+*.synctex.gz

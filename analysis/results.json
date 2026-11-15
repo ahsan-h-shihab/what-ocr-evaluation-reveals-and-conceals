@@ -1,0 +1,234 @@
+{
+  "question": "How does the common-source difference in reference distance depend on text representation and edit unit?",
+  "python": "3.12.1",
+  "rapidfuzz": "3.14.6",
+  "unicode_version": "15.0.0",
+  "input_sha256": {
+    "benchmark_b/reference_pravda.txt": "a114f8746b4ce1c519e26b2675384398997a1895d28c8fc27a090aebe9d761d2",
+    "benchmark_b/DeepSeek_OCR_prediction.txt": "5d7d5f449261d6eaba5733b1036d1fbf2aae5a9d5c640bcc53de8d2e7e210e1c",
+    "benchmark_b/DP2_mini_LandingAI_prediction.txt": "fdcd2fa56bd732a1c42669c05eddce5cd8ec154a50b628629bd7cebd8bc9a221"
+  },
+  "scorer_sha256": "7f7fe60bbb7a306d53a32377da7b06ffdf5649de428736ced76f74b883cc6daa",
+  "rows": [
+    {
+      "system": "DeepSeek",
+      "representation": "original_char",
+      "N": 119453,
+      "H": 118143,
+      "S": 1284,
+      "D": 2659,
+      "I": 1349,
+      "edits": 5292,
+      "rate": 0.04430194302361598
+    },
+    {
+      "system": "DeepSeek",
+      "representation": "lowercase_char",
+      "N": 119453,
+      "H": 118143,
+      "S": 1160,
+      "D": 2658,
+      "I": 1348,
+      "edits": 5166,
+      "rate": 0.04324713485638703
+    },
+    {
+      "system": "DeepSeek",
+      "representation": "token_string_char",
+      "N": 114227,
+      "H": 113130,
+      "S": 1052,
+      "D": 2302,
+      "I": 1205,
+      "edits": 4559,
+      "rate": 0.03991175466395861
+    },
+    {
+      "system": "DeepSeek",
+      "representation": "token_word",
+      "N": 17210,
+      "H": 17082,
+      "S": 1055,
+      "D": 346,
+      "I": 218,
+      "edits": 1619,
+      "rate": 0.09407321324811156
+    },
+    {
+      "system": "DP2",
+      "representation": "original_char",
+      "N": 119453,
+      "H": 122158,
+      "S": 1517,
+      "D": 2726,
+      "I": 5431,
+      "edits": 9674,
+      "rate": 0.08098582706168954
+    },
+    {
+      "system": "DP2",
+      "representation": "lowercase_char",
+      "N": 119453,
+      "H": 122158,
+      "S": 1457,
+      "D": 2726,
+      "I": 5431,
+      "edits": 9614,
+      "rate": 0.08048353745824717
+    },
+    {
+      "system": "DP2",
+      "representation": "token_string_char",
+      "N": 114227,
+      "H": 114046,
+      "S": 1276,
+      "D": 2419,
+      "I": 2238,
+      "edits": 5933,
+      "rate": 0.05194043439817206
+    },
+    {
+      "system": "DP2",
+      "representation": "token_word",
+      "N": 17210,
+      "H": 17078,
+      "S": 1243,
+      "D": 368,
+      "I": 236,
+      "edits": 1847,
+      "rate": 0.1073213248111563
+    }
+  ],
+  "gap_pp_DP_minus_DeepSeek": {
+    "original_char": 3.6683884038073558,
+    "lowercase_char": 3.723640260186014,
+    "token_string_char": 1.2028679734213448,
+    "token_word": 1.3248111563044742
+  },
+  "inserted_character_diagnostics": {
+    "DeepSeek": {
+      "insertions": 1349,
+      "by_unicode_category": {
+        "Ll": 874,
+        "Lu": 51,
+        "Nd": 55,
+        "No": 13,
+        "Pd": 41,
+        "Pe": 1,
+        "Pf": 8,
+        "Pi": 8,
+        "Po": 78,
+        "Ps": 1,
+        "So": 1,
+        "Zs": 218
+      },
+      "most_frequent_codepoints": {
+        "U+0020": 218,
+        "U+0430": 102,
+        "U+0456": 67,
+        "U+043D": 67,
+        "U+044B": 64
+      }
+    },
+    "DP2": {
+      "insertions": 5431,
+      "by_unicode_category": {
+        "Ll": 892,
+        "Lo": 4,
+        "Lu": 56,
+        "Nd": 1029,
+        "No": 29,
+        "Pd": 44,
+        "Pe": 519,
+        "Pf": 949,
+        "Pi": 8,
+        "Po": 83,
+        "Ps": 521,
+        "Zs": 1297
+      },
+      "most_frequent_codepoints": {
+        "U+0020": 1297,
+        "U+0035": 981,
+        "U+00BB": 945,
+        "U+005B": 520,
+        "U+005D": 519
+      }
+    }
+  },
+  "longest_runs": {
+    "reference": {
+      "empty_brackets": {
+        "start": 0,
+        "end": 0,
+        "repeats": 0
+      },
+      "digit_five": {
+        "start": 71332,
+        "end": 71333,
+        "repeats": 1
+      },
+      "closing_guillemet": {
+        "start": 2035,
+        "end": 2036,
+        "repeats": 1
+      }
+    },
+    "DeepSeek": {
+      "empty_brackets": {
+        "start": 0,
+        "end": 0,
+        "repeats": 0,
+        "insertion_ops": 0
+      },
+      "digit_five": {
+        "start": 69823,
+        "end": 69824,
+        "repeats": 1,
+        "insertion_ops": 0
+      },
+      "closing_guillemet": {
+        "start": 2024,
+        "end": 2025,
+        "repeats": 1,
+        "insertion_ops": 0
+      }
+    },
+    "DP2": {
+      "empty_brackets": {
+        "start": 52312,
+        "end": 54387,
+        "repeats": 519,
+        "insertion_ops": 2074
+      },
+      "digit_five": {
+        "start": 60323,
+        "end": 61302,
+        "repeats": 979,
+        "insertion_ops": 979
+      },
+      "closing_guillemet": {
+        "start": 65102,
+        "end": 66073,
+        "repeats": 971,
+        "insertion_ops": 938
+      }
+    }
+  },
+  "raw_chunk_corroboration": {
+    "sha256": "291adde99385d05f4aa4179ade1054b034ed51269060a937506971d9b7a7057d",
+    "locations": {
+      "empty_brackets": {
+        "chunk_zero_based": 229,
+        "pdf_page_one_based": 34
+      },
+      "digit_five": {
+        "chunk_zero_based": 247,
+        "pdf_page_one_based": 37
+      },
+      "closing_guillemet": {
+        "chunk_zero_based": 262,
+        "pdf_page_one_based": 39
+      }
+    }
+  }
+}

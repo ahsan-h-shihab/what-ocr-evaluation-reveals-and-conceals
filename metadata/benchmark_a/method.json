@@ -1,0 +1,8 @@
+{
+  "normalization": "unchanged normalize_text and tokenize functions from recovered bootstrap_benchmark_a.py",
+  "estimand": "sum of within-page edit counts divided by sum of within-page reference lengths; character line breaks retained",
+  "resampling": "same 2000 seven-page index draws for all systems and both metrics; additive counts; no concatenation/re-alignment across resampled page boundaries",
+  "seed": 20260602,
+  "interpretation": "conditional descriptive page-resampling interval; adjacent pages from one work do not provide book-population confidence",
+  "legacy_reference_boundary_defect": "see original-script audit; second repeated refrain selected at codepoint 233 instead of physical page-11 anchor 772"
+}

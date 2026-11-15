@@ -1,0 +1,15 @@
+{
+  "S": "Defective supplied target, preserved for archived-output reproduction",
+  "D": "Duplicate-only provisional sensitivity target; remove first incomplete span, preserve complete second occurrence; not approved gold",
+  "C": "Separate partial one-reader scan-collated proposal, excluded from headline scoring and this release",
+  "C_proposed_edits": 39,
+  "human_approval": null,
+  "D_residual_issues": [
+    "omitted verses",
+    "legitimate repetitions must remain",
+    "footnote scope",
+    "uncertain characters",
+    "spacing and punctuation"
+  ],
+  "candidate_edit_texts_included": false
+}

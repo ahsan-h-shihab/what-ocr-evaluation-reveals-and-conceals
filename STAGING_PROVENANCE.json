@@ -1,0 +1,423 @@
+{
+  "audit_date": "2026-11-15",
+  "release_state": "Approved initial public distribution of 68 reviewed files; no new project-wide reuse license applied",
+  "approved_source_count": 48,
+  "approved_sources": [
+    {
+      "path": "analysis/representation_sensitivity.py",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/analysis/representation_sensitivity.py",
+      "source_sha256": "9423605f47046853b893b8a63499a7dd5236069f2897c291d1ab1df78f260b17",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "analysis/results.json",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/analysis/results.json",
+      "source_sha256": "15bd4bc1f6c287479d8661e07c23a5425bfe8d7d6733e5976b3c7978461cf42e",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "code/a_scoring.py",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/code/a_scoring.py",
+      "source_sha256": "edb9cbaf3b200dabbd5f74d3c8c52da594cae5f932440eec338f295e8a8ee3c1",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "code/b_scoring.py",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/code/b_scoring.py",
+      "source_sha256": "7f7fe60bbb7a306d53a32377da7b06ffdf5649de428736ced76f74b883cc6daa",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "code/correction_scoring.py",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/code/correction_scoring.py",
+      "source_sha256": "d2bfee1f43256b25b7482e2379b8eed71accb090f8a9d5f41b2463b986cd120c",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "code/prospective/retrieval_evaluation.py",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/code/prospective/retrieval_evaluation.py",
+      "source_sha256": "435de28186da4f0d32783e34a81c2619ba2fa136bab56dec8a35f275a7052a8c",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "code/prospective/test_retrieval_evaluation.py",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/code/prospective/test_retrieval_evaluation.py",
+      "source_sha256": "6fb8a3097f1d0bbba170046088ab4c07b308ec7cc86673dc306d9c291ba0138c",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "code/reproduce.py",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/code/reproduce.py",
+      "source_sha256": "5264a9a03cd8a5ad7da04107f60ca74aeb2b5d369a863994450dba55e025618f",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "figures/Fig1_pipeline.pdf",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/figures/Fig1_pipeline.pdf",
+      "source_sha256": "65831bfeaf772240abe0ee94192dfb9c6bd1969871d412a653fd780ad5cfcf39",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "figures/Fig2_reference_sensitivity.pdf",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/figures/Fig2_reference_sensitivity.pdf",
+      "source_sha256": "c0a227d26aac531801964bd2fb818972c0cf7f391d53721a0a22fb2f20691e34",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "figures/Fig2_reference_values.csv",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/figures/Fig2_reference_values.csv",
+      "source_sha256": "48b813e96e750352419c219a86fa7b688d6dae659afccf8cb9d06a35e7e4bba4",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "figures/Fig3_positional_target.pdf",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/figures/Fig3_positional_target.pdf",
+      "source_sha256": "098ad7684d5a1846defac67426a110b9164b7281a45ebad33e7f80d91c40783c",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "figures/draw_figures.py",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/figures/draw_figures.py",
+      "source_sha256": "ef8a39e4c71119ad47a207e5e0d4a56965ccce7d342dabe16cfd321043be6b90",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "figures/fonts/LICENSE.txt",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/figures/fonts/LICENSE.txt",
+      "source_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "figures/fonts/NotoSans-Bold.ttf",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/figures/fonts/NotoSans-Bold.ttf",
+      "source_sha256": "68bdd57a1e1e62663a0b372c7224204b82a89820b9cf30391337f61f0c5e7123",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "figures/fonts/NotoSans-Regular.ttf",
+      "source_project_path": "submission_ready/IJDAR_portrait_alignment_final/figures/fonts/NotoSans-Regular.ttf",
+      "source_sha256": "9e9b4c53bd25cad9c04d370f133a5e32d166d0d54e2a9ad6cba4a31fcd382d5b",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_a/legacy_reference_segments.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_a/legacy_reference_segments.json",
+      "source_sha256": "619f9816956d38e86af518e26103a7d774b7c46f52e1aae8bdef7c426fa72c7f",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_a/method.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_a/method.json",
+      "source_sha256": "025b55118bac04fdc8b689ee7e79b1442014ea02c62a5a2977e455c78c168fca",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_a/page_boundaries.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_a/page_boundaries.json",
+      "source_sha256": "5772ca594b5c692383bfe04faeebed22874dab041184a4af7b0f0b70869945d9",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_a/reference_change.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_a/reference_change.json",
+      "source_sha256": "98861ceaa286a5acf1593ef60ba07f6d18fd5f1a4dbc3aee1cc5ea8966df1000",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_a/target_status.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_a/target_status.json",
+      "source_sha256": "a39932fba355bdbc5ca317ff15f27708375a5c366cbc6eb9f9b5144cbd52e9bd",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_b/Tesseract_full_export_scope_219_pages.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_b/Tesseract_full_export_scope_219_pages.csv",
+      "source_sha256": "4001ecf79c0a8cef284391769f4e09e6c55fe3958c5da2e72531206d8b5bd1dc",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_b/Tesseract_to_scan_content_map_72_pages.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_b/Tesseract_to_scan_content_map_72_pages.csv",
+      "source_sha256": "a970b3802c3bb48bc41c38c3a568a7337095a59cc4c1c7e0afd911d2138277dc",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_b/benchmark_B_section_source_map.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_b/benchmark_B_section_source_map.csv",
+      "source_sha256": "d420611fa700f79df1bf0dce5abf71c3166a9af941ad0c7ccfd4632ef8b0adaa",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_b/benchmark_B_text_pdf_page_map.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_b/benchmark_B_text_pdf_page_map.csv",
+      "source_sha256": "9bac33fced66ae3059baf2b60209fe3c445100988b1bb97d070a72565c320405",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_b/common_source_evidence.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_b/common_source_evidence.json",
+      "source_sha256": "40cf21b87553e712ead1d236ccc76c936b8e452dc548d4cca5b2fb63fce7d20e",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_b/nonbody_regions.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_b/nonbody_regions.json",
+      "source_sha256": "f354bec2511bf5f3ab53fbb2a5249ec02404f74a15ff43ef6b1e5ab35710733f",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_b/page_image_correspondence.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_b/page_image_correspondence.json",
+      "source_sha256": "03260100185b3b6294fb5248ab01bcfa29c23de71566e040d5c6cfad376ffc7f",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/benchmark_b/source_difference_windows.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/benchmark_b/source_difference_windows.json",
+      "source_sha256": "03b2af571178b8a24d80e29df5d13a0aa23b3ed2acb0d3534702c0a8fe31d5f6",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/file_provenance.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/file_provenance.json",
+      "source_sha256": "6678a72caebab87d452d23e176d1dddcf00ca98cc3077406664d4f16d0c455a7",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/restricted_inputs.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/restricted_inputs.json",
+      "source_sha256": "7c3a54386986292c024fcb3bf405d7582d99b908cef54635796597e3a8ffdabc",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/runtime_and_models.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/runtime_and_models.json",
+      "source_sha256": "28ebb2d3d23278a418f54bd55f9730b2c7a0b502c09d8137cb8c8a30115292be",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "metadata/yandex_provenance.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/metadata/yandex_provenance.json",
+      "source_sha256": "49c2cfe5d207d704595a29335bcb5c9e41bda28823da9493e4ed0156fa56c017",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_a/benchmark_a_original_bootstrap.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_a/benchmark_a_original_bootstrap.csv",
+      "source_sha256": "1aeb23b76f9c3e00a0ac848e8237307a1398a4c7e7a9057e98f23a41340b0186",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_a/benchmark_a_tesseract_normalization_comparison.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_a/benchmark_a_tesseract_normalization_comparison.json",
+      "source_sha256": "b2f50a41c1db52652ccb3fda43e4492abbce91afe0a18b55b6b0fe8e294c9ebe",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_a/page_counts.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_a/page_counts.csv",
+      "source_sha256": "898c2d524b0c003a1cc299ec7e5d1dc6224854bfac9ebab84c479eec120ad669",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_a/pooled_metrics_and_page_intervals.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_a/pooled_metrics_and_page_intervals.csv",
+      "source_sha256": "3fbb28cd6610832fd902239d6a5e29a561eeacd0f539836749dc2fc19e3b5cea",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_a/primary_S_D_counts.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_a/primary_S_D_counts.csv",
+      "source_sha256": "0755066ac400ad1fe97afe121a32d22e99f8b1b50afaf08d950744ac51a280b5",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_a/reference_sensitivity.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_a/reference_sensitivity.csv",
+      "source_sha256": "283ba0495842c5e54d701dfd7363e11945e4988815f07ec759096d93d66105e4",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_b/benchmark_B_scope_sensitivity.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_b/benchmark_B_scope_sensitivity.csv",
+      "source_sha256": "312419441fb1bed5f8db802dee11448885284cc0417be153509563dc92148fc0",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_b/benchmark_b_alignment_counts.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_b/benchmark_b_alignment_counts.csv",
+      "source_sha256": "0e81fa21ff13d829a13bb59b1ad5fdca490d4b0a9dbd3430a06d2fc34bdfaeef",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_b/qara_sozder_bootstrap_ci.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_b/qara_sozder_bootstrap_ci.csv",
+      "source_sha256": "07ea109b475cebdbc4c937ac48f12beacfe54134a7608300917fc0824c81b013",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_b/qara_sozder_error_classes.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_b/qara_sozder_error_classes.csv",
+      "source_sha256": "a13f0b10b32e8ef8c9bf3293ce59a22a8686ac65211f6dc962d8745df75ee28b",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_b/qara_sozder_retrieval_sensitivity_bm25.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_b/qara_sozder_retrieval_sensitivity_bm25.csv",
+      "source_sha256": "96ab596eb87fc58fd10fdd67987b2af6b9fbb5251c07b5acf0e48d89c4b23cca",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_b/section_diagnostics.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_b/section_diagnostics.csv",
+      "source_sha256": "974620f30c49ab3df59594db6459608d2655763fa430b184ef03fe2e13f5f596",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/benchmark_b/unchanged_original_score_verification.csv",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/benchmark_b/unchanged_original_score_verification.csv",
+      "source_sha256": "fbe16516443c0d9ed9ee64d2d837d9ceabd1dc3364dfc3e401463037449a869e",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "results/correction/saved_correction_scores.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/results/correction/saved_correction_scores.json",
+      "source_sha256": "dd981e036a0e7c2d88553cdf4d0de464d9e13ee19358eb7ddc58221110a08880",
+      "operation": "byte-identical allowlisted copy"
+    },
+    {
+      "path": "templates/retrieval_bundle_PENDING.json",
+      "source_project_path": "submission_ready/IJDAR_reproducibility_release/templates/retrieval_bundle_PENDING.json",
+      "source_sha256": "a8cb2d51f033931721e96398f038a5706a47a3f13dc7757f5897c8674fac298e",
+      "operation": "byte-identical allowlisted copy"
+    }
+  ],
+  "additions": [
+    {
+      "path": ".gitignore",
+      "justification": "Requested comprehensive exclusion rules.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "justification": "Requested local staging release description.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "CITATION.cff",
+      "justification": "Requested repository software citation with the two named contributors and existing repository URL; unchanged preferred manuscript citation with its approved title and all six authors. No DOI or publication date invented.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "DATA_POLICY.md",
+      "justification": "Requested aggregate/restricted-data policy.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "MANIFEST.json",
+      "justification": "Requested final included-file manifest with checksums and preview derivations.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "OUTSTANDING_DECISIONS.md",
+      "justification": "Requested unresolved human decisions.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "README.md",
+      "justification": "Requested final-methodology documentation and inline Visual Overview.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "RIGHTS_AND_REUSE.md",
+      "justification": "Requested unresolved licensing-authority notice and preserved third-party terms.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "SOURCE_ACCESS.md",
+      "justification": "Requested accurate source-access notice; no external access promise.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "STAGING_PROVENANCE.json",
+      "justification": "Addition ledger and exact 48-source/destination map requested for review.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "analysis/README.md",
+      "justification": "Requested portable representation-analysis instructions.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "code/release_checks.py",
+      "justification": "Public-only integrity, representation, preview-pixel and README-link validation.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "code/render_figures.py",
+      "justification": "New essential bridge for the unchanged allowlisted adapter to the current three-figure generator. No excluded historical renderer was copied.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "code/render_readme_previews.py",
+      "justification": "Reproducible direct PDF rasterization for the explicitly authorized README previews.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "figures/readme/Fig1_pipeline.png",
+      "justification": "Explicitly authorized 300 dpi preview derived directly from Figure 1 PDF.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "figures/readme/Fig2_reference_sensitivity.png",
+      "justification": "Explicitly authorized 300 dpi preview derived directly from Figure 2 PDF.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "figures/readme/Fig3_positional_target.png",
+      "justification": "Explicitly authorized 300 dpi preview derived directly from Figure 3 PDF.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "requirements.txt",
+      "justification": "Requested pinned runtime including ReportLab 5.0.0 and PDF-preview tooling.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "validation/EXCLUSION_VERIFICATION.md",
+      "justification": "Requested exclusion and safety report.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    },
+    {
+      "path": "validation/release_validation.json",
+      "justification": "Requested validation receipt, with human licensing/release approval still pending.",
+      "authority": "Explicit staging request or necessary documented implementation support"
+    }
+  ],
+  "excluded_optional_components": [
+    "manuscript PDF and source ZIP",
+    "author photographs and biographies",
+    "manuscript-only dependencies",
+    "all raw books, OCR text and private evidence",
+    "historical conference packages"
+  ],
+  "no_project_license_applied": true,
+  "repository": {
+    "slug": "what-ocr-evaluation-reveals-and-conceals",
+    "display_name": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR",
+    "title": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR",
+    "url": "https://github.com/ahsan-h-shihab/what-ocr-evaluation-reveals-and-conceals",
+    "state": "Existing remote verified empty before the initial commit; initial publication authorized"
+  },
+  "repository_contributors": [
+    {
+      "name": "Ahsan Habib Shihab",
+      "url": "https://github.com/ahsan-h-shihab"
+    },
+    {
+      "name": "Iskander Akhmetov",
+      "url": "https://github.com/iskander-akhmetov"
+    }
+  ],
+  "project_title": "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR"
+}

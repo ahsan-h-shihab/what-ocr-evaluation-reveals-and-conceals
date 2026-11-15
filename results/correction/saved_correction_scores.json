@@ -1,0 +1,46 @@
+[
+  {
+    "sha256": "fd0dfe43b52f7e91ee2a03e6e8e16de06069acfc1d2953f638cace1a15406a63",
+    "reference_tokens": 1106,
+    "hypothesis_tokens": 958,
+    "character_edits": 1545,
+    "reference_characters": 7073,
+    "CER": 0.2184363070832744,
+    "word_edits": 395,
+    "WER": 0.35714285714285715,
+    "input_name": "ocr llama_vision_output.txt"
+  },
+  {
+    "sha256": "6d0cad7686c71eda8ea37bf36f8b2ccf7899e92492295091108de0b4168c28ab",
+    "reference_tokens": 1106,
+    "hypothesis_tokens": 958,
+    "character_edits": 1544,
+    "reference_characters": 7073,
+    "CER": 0.21829492436024317,
+    "word_edits": 393,
+    "WER": 0.3553345388788427,
+    "input_name": "book1_corrected.txt"
+  },
+  {
+    "sha256": "fc0b2680060d945c1efa402d235b8844946602b2cd0d31b33f59d195cef8cd73",
+    "reference_tokens": 1106,
+    "hypothesis_tokens": 958,
+    "character_edits": 1545,
+    "reference_characters": 7073,
+    "CER": 0.2184363070832744,
+    "word_edits": 394,
+    "WER": 0.3562386980108499,
+    "input_name": "book1_custom_corrected.txt"
+  },
+  {
+    "sha256": "8831c874d05092f27f2c3c00e2ef2e3ead997551d22db3ec2d61ab00a43f5e09",
+    "reference_tokens": 1106,
+    "hypothesis_tokens": 958,
+    "character_edits": 1545,
+    "reference_characters": 7073,
+    "CER": 0.2184363070832744,
+    "word_edits": 395,
+    "WER": 0.35714285714285715,
+    "input_name": "book1_yandex_corrected.txt"
+  }
+]

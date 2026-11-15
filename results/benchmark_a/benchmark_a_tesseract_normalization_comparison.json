@@ -1,0 +1,24 @@
+[
+  {
+    "normalization": "A_bootstrap_normalization",
+    "reference_characters": 7511,
+    "hypothesis_characters": 6427,
+    "char_edits": 1626,
+    "CER": 0.21648249234456132,
+    "reference_words": 1106,
+    "hypothesis_words": 959,
+    "word_edits": 285,
+    "WER": 0.2576853526220615
+  },
+  {
+    "normalization": "B_uniform_normalization",
+    "reference_characters": 7511,
+    "hypothesis_characters": 6373,
+    "char_edits": 1561,
+    "CER": 0.20782851817334577,
+    "reference_words": 1106,
+    "hypothesis_words": 959,
+    "word_edits": 285,
+    "WER": 0.2576853526220615
+  }
+]

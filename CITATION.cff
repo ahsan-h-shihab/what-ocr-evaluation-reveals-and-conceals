@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite this artifact package and its associated manuscript when using these materials. Initial public distribution is approved; no project-wide reuse license has been applied."
+type: software
+title: "What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR"
+repository-code: "https://github.com/ahsan-h-shihab/what-ocr-evaluation-reveals-and-conceals"
+authors:
+  - family-names: "Shihab"
+    given-names: "Ahsan Habib"
+    orcid: "https://orcid.org/0009-0008-1157-6335"
+  - family-names: "Akhmetov"
+    given-names: "Iskander"
+    orcid: "https://orcid.org/0000-0002-3221-9352"
+preferred-citation:
+  type: unpublished
+  title: "Retrieval-Aware Evaluation of Printed Kazakh Book OCR: Reference Integrity, Transcription, and Structural Diagnostics"
+  authors:
+    - family-names: "Shihab"
+      given-names: "Ahsan Habib"
+      orcid: "https://orcid.org/0009-0008-1157-6335"
+    - family-names: "Akhmetov"
+      given-names: "Iskander"
+      orcid: "https://orcid.org/0000-0002-3221-9352"
+    - family-names: "Sarsembayeva"
+      given-names: "Talshyn"
+      orcid: "https://orcid.org/0000-0001-7668-2640"
+    - family-names: "Ospan"
+      given-names: "Assel"
+      orcid: "https://orcid.org/0000-0002-1860-6997"
+    - family-names: "Gelbukh"
+      given-names: "Alexander"
+      orcid: "https://orcid.org/0000-0001-7845-9039"
+    - family-names: "Mansurova"
+      given-names: "Madina"
+      orcid: "https://orcid.org/0000-0002-9680-2758"
+  year: 2026

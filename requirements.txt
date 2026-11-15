@@ -1,0 +1,6 @@
+# Tested with Python 3.12.1. Public checks and optional archived-output evaluation.
+rapidfuzz==3.14.6
+numpy==2.4.4
+matplotlib==3.10.9
+reportlab==5.0.0
+PyMuPDF==1.28.0

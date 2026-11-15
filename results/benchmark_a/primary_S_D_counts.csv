@@ -1,0 +1,11 @@
+system,reference_version,reference_status,character_S,character_D,character_I,character_N,character_edits,CER,word_S,word_D,word_I,word_N,word_edits,WER
+Tesseract,S_supplied,defective supplied target; historical replication only,156,1277,193,7511,1626,0.21648249234456132,86,173,26,1106,285,0.2576853526220615
+Tesseract,D_duplicate_only,prior duplicate-only sensitivity; known residual defects,156,102,196,6333,454,0.07168798357808305,84,2,28,933,114,0.12218649517684887
+Gemma 3 27B,S_supplied,defective supplied target; historical replication only,218,1295,155,7511,1668,0.22207429103980827,146,175,23,1106,344,0.31103074141048825
+Gemma 3 27B,D_duplicate_only,prior duplicate-only sensitivity; known residual defects,220,120,158,6333,498,0.07863571766935101,147,2,23,933,172,0.18435155412647375
+Gemma 3 12B,S_supplied,defective supplied target; historical replication only,283,1312,161,7511,1756,0.23379044068699242,193,175,26,1106,394,0.3562386980108499
+Gemma 3 12B,D_duplicate_only,prior duplicate-only sensitivity; known residual defects,287,140,167,6333,594,0.09379441023211749,193,3,27,933,223,0.2390139335476956
+Llama 4 Scout,S_supplied,defective supplied target; historical replication only,420,1310,217,7511,1947,0.25921981094394886,286,174,27,1106,487,0.4403254972875226
+Llama 4 Scout,D_duplicate_only,prior duplicate-only sensitivity; known residual defects,422,136,221,6333,779,0.12300647402494869,285,2,28,933,315,0.33762057877813506
+Gemma 3 4B,S_supplied,defective supplied target; historical replication only,404,1348,222,7511,1974,0.26281453867660765,290,178,28,1106,496,0.4484629294755877
+Gemma 3 4B,D_duplicate_only,prior duplicate-only sensitivity; known residual defects,415,177,229,6333,821,0.129638402021159,290,6,29,933,325,0.3483386923901393

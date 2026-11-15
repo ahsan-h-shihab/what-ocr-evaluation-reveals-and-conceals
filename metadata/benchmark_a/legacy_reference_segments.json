@@ -1,0 +1,24 @@
+{
+  "status": "Reproduced defective legacy segmentation; not physical pages",
+  "start_codepoints": [
+    0,
+    233,
+    1370,
+    2607,
+    3373,
+    5861,
+    6721
+  ],
+  "end_codepoints": [
+    233,
+    1370,
+    2607,
+    3373,
+    5861,
+    6721,
+    7547
+  ],
+  "strip_each_segment": true,
+  "incorrect_second_start": 233,
+  "scan_aligned_second_start": 772
+}

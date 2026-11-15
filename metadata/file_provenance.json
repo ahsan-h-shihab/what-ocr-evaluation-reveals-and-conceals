@@ -1,0 +1,232 @@
+[
+  {
+    "release_file": "results/benchmark_a/reference_sensitivity.csv",
+    "source_file": "audit/recovered_evidence/corrected_benchmark_a/reference_sensitivity.csv",
+    "source_sha256": "283ba0495842c5e54d701dfd7363e11945e4988815f07ec759096d93d66105e4",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_a/page_counts.csv",
+    "source_file": "audit/recovered_evidence/corrected_benchmark_a/page_counts.csv",
+    "source_sha256": "898c2d524b0c003a1cc299ec7e5d1dc6224854bfac9ebab84c479eec120ad669",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_a/pooled_metrics_and_page_intervals.csv",
+    "source_file": "audit/recovered_evidence/corrected_benchmark_a/pooled_metrics_and_page_intervals.csv",
+    "source_sha256": "3fbb28cd6610832fd902239d6a5e29a561eeacd0f539836749dc2fc19e3b5cea",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "metadata/benchmark_a/method.json",
+    "source_file": "audit/recovered_evidence/corrected_benchmark_a/method.json",
+    "source_sha256": "025b55118bac04fdc8b689ee7e79b1442014ea02c62a5a2977e455c78c168fca",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_b/qara_sozder_bootstrap_ci.csv",
+    "source_file": "audit/recovered_evidence/reproduction/benchmark_b_original/qara_sozder_bootstrap_ci.csv",
+    "source_sha256": "07ea109b475cebdbc4c937ac48f12beacfe54134a7608300917fc0824c81b013",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_b/qara_sozder_error_classes.csv",
+    "source_file": "audit/recovered_evidence/reproduction/benchmark_b_original/qara_sozder_error_classes.csv",
+    "source_sha256": "a13f0b10b32e8ef8c9bf3293ce59a22a8686ac65211f6dc962d8745df75ee28b",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_b/section_diagnostics.csv",
+    "source_file": "audit/recovered_evidence/reproduction/benchmark_b_original/section_diagnostics.csv",
+    "source_sha256": "974620f30c49ab3df59594db6459608d2655763fa430b184ef03fe2e13f5f596",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_b/qara_sozder_retrieval_sensitivity_bm25.csv",
+    "source_file": "audit/recovered_evidence/reproduction/benchmark_b_original/qara_sozder_retrieval_sensitivity_bm25.csv",
+    "source_sha256": "96ab596eb87fc58fd10fdd67987b2af6b9fbb5251c07b5acf0e48d89c4b23cca",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_b/benchmark_b_alignment_counts.csv",
+    "source_file": "audit/recovered_evidence/reproduction/benchmark_b_alignment_counts.csv",
+    "source_sha256": "0e81fa21ff13d829a13bb59b1ad5fdca490d4b0a9dbd3430a06d2fc34bdfaeef",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_a/benchmark_a_original_bootstrap.csv",
+    "source_file": "audit/recovered_evidence/reproduction/benchmark_a_original_bootstrap.csv",
+    "source_sha256": "1aeb23b76f9c3e00a0ac848e8237307a1398a4c7e7a9057e98f23a41340b0186",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_a/benchmark_a_tesseract_normalization_comparison.json",
+    "source_file": "audit/recovered_evidence/reproduction/benchmark_a_tesseract_normalization_comparison.json",
+    "source_sha256": "b2f50a41c1db52652ccb3fda43e4492abbce91afe0a18b55b6b0fe8e294c9ebe",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_b/unchanged_original_score_verification.csv",
+    "source_file": "audit/benchmark_B_reassessment_2026-11-14/unchanged_original_score_verification.csv",
+    "source_sha256": "fbe16516443c0d9ed9ee64d2d837d9ceabd1dc3364dfc3e401463037449a869e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_b/benchmark_B_scope_sensitivity.csv",
+    "source_file": "audit/autonomous_completion/benchmark_B_scope_sensitivity.csv",
+    "source_sha256": "312419441fb1bed5f8db802dee11448885284cc0417be153509563dc92148fc0",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "results/benchmark_a/primary_S_D_counts.csv",
+    "source_file": "audit/reference_validation/benchmark_A_correction_comparison.csv",
+    "source_sha256": "4e4fed6eba842a8054214fcd2c59d0fb7900d64a8ac91f30251c28b0ca86b6fa",
+    "transformation": "Select ten primary-system S/D rows and listed count/status columns; values unchanged"
+  },
+  {
+    "release_file": "metadata/benchmark_a/page_boundaries.json",
+    "source_file": "audit/recovered_evidence/corrected_benchmark_a/page_boundary_provenance.json",
+    "source_sha256": "9cd080862e6e52db0cec646412b20630949bbacae42eed3eac98e4739b0c2e68",
+    "transformation": "Remove all verse anchors and source text; retain exact numeric boundaries/status/hashes"
+  },
+  {
+    "release_file": "metadata/benchmark_a/reference_change.json",
+    "source_file": "audit/recovered_evidence/corrected_benchmark_a/reference_change.json",
+    "source_sha256": "b27c6104c0d1aeb6c765a85713f66d933dde16e2ddb286ea52897d8c68ca7110",
+    "transformation": "Omit legacy duplicate input path; no passage text present"
+  },
+  {
+    "release_file": "code/a_scoring.py",
+    "source_file": "OCR experiments/scripts/bootstrap_benchmark_a.py",
+    "source_sha256": "308ddae776641ffb315a73a33166e386096ba1affb53943aa444339ffabb27bf",
+    "transformation": "Exact function bodies; omit filesystem globals/main and literary reference anchors"
+  },
+  {
+    "release_file": "metadata/benchmark_a/legacy_reference_segments.json",
+    "source_file": "OCR experiments/scripts/bootstrap_benchmark_a.py",
+    "source_sha256": "308ddae776641ffb315a73a33166e386096ba1affb53943aa444339ffabb27bf",
+    "transformation": "Evaluate original literal markers once on preserved S; publish only offsets, never marker text"
+  },
+  {
+    "release_file": "code/b_scoring.py",
+    "source_file": "OCR experiments/scripts/qara_sozder_shared_evaluation.py",
+    "source_sha256": "9a66699a72fa7f5472959f0cbeca168afa9a40f49891e22f2d8c5583bb6253ea",
+    "transformation": "Exact computation functions/constants; omit IO globals, report writer and main"
+  },
+  {
+    "release_file": "code/correction_scoring.py",
+    "source_file": "OCR experiments/Reports/librag/librag/spell checker -20260530T085335Z-3-001/spell checker/spch.ipynb",
+    "source_sha256": "fd60c4b6d40d5c7b8c1bcd557732471d6d66bceed7c2795c586965ceb7540d96",
+    "transformation": "Exact two functions and WORD_RE only; no notebook outputs or inference code"
+  },
+  {
+    "release_file": "results/correction/saved_correction_scores.json",
+    "source_file": "audit/recovered_evidence/protocol_checks/saved_correction_scores.json",
+    "source_sha256": "6cfc3e322e5687cf301242dc115de9f927aacf4eb9e4fee122c89b7b7fe58e37",
+    "transformation": "Select four manuscript variants; replace repository path with basename; numerical fields unchanged"
+  },
+  {
+    "release_file": "code/prospective/retrieval_evaluation.py",
+    "source_file": "audit/autonomous_completion/retrieval_evaluation.py",
+    "source_sha256": "435de28186da4f0d32783e34a81c2619ba2fa136bab56dec8a35f275a7052a8c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "code/prospective/test_retrieval_evaluation.py",
+    "source_file": "audit/autonomous_completion/test_retrieval_evaluation.py",
+    "source_sha256": "6fb8a3097f1d0bbba170046088ab4c07b308ec7cc86673dc306d9c291ba0138c",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "templates/retrieval_bundle_PENDING.json",
+    "source_file": "audit/autonomous_completion/retrieval_bundle_PENDING.json",
+    "source_sha256": "a8cb2d51f033931721e96398f038a5706a47a3f13dc7757f5897c8674fac298e",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "metadata/benchmark_b/source_difference_windows.json",
+    "source_file": "audit/benchmark_B_reassessment_2026-11-14/known_source_differences_in_scored_alignments.json",
+    "source_sha256": "6e8f5a00b283a907ff9b42956d04af1e49c0a6b0fbc7f2232e9d4877d2903866",
+    "transformation": "Remove reference/hypothesis quotations; retain exact issue labels, numeric coordinates/counts and scope"
+  },
+  {
+    "release_file": "metadata/benchmark_b/nonbody_regions.json",
+    "source_file": "audit/benchmark_B_reassessment_2026-11-14/Tesseract_nonbody_material_in_original_alignment.json",
+    "source_sha256": "5946fae431e11cfd188224852ae71ea81ee046cf9a65a28e0c62ad63dd7ad574",
+    "transformation": "Remove excerpts; retain exact normalized ranges and alignment operation counts"
+  },
+  {
+    "release_file": "metadata/benchmark_b/Tesseract_full_export_scope_219_pages.csv",
+    "source_file": "audit/benchmark_B_reassessment_2026-11-14/Tesseract_full_export_scope_219_pages.csv",
+    "source_sha256": "4deeb954ec3818132840a6f5d2118f92fc9602b2c72da30d7dcc10b548f78f20",
+    "transformation": "Remove longest literary anchor if present; retain complete page/content mapping"
+  },
+  {
+    "release_file": "metadata/benchmark_b/Tesseract_to_scan_content_map_72_pages.csv",
+    "source_file": "audit/benchmark_B_reassessment_2026-11-14/Tesseract_to_scan_content_map_72_pages.csv",
+    "source_sha256": "fe2ba33c45a384a3da6a7f7f1ad461fbd4cbadd8514757bb6088dad3c6dec11e",
+    "transformation": "Remove longest literary anchor if present; retain complete page/content mapping"
+  },
+  {
+    "release_file": "metadata/benchmark_b/benchmark_B_section_source_map.csv",
+    "source_file": "audit/reference_validation/benchmark_B_section_source_map.csv",
+    "source_sha256": "bd7fae495c14adeb14eda3c3a72f16d38da5460856107dd22c0bedd1f63bce92",
+    "transformation": "Page/section mapping only; omit text excerpt fields"
+  },
+  {
+    "release_file": "metadata/benchmark_b/benchmark_B_text_pdf_page_map.csv",
+    "source_file": "audit/reference_validation/benchmark_B_text_pdf_page_map.csv",
+    "source_sha256": "80b7d22a4a891898761cb94a92f17255af6b9f04c6efe1aaa9f6ece60573199c",
+    "transformation": "Page/section mapping only; omit text excerpt fields"
+  },
+  {
+    "release_file": "metadata/benchmark_b/common_source_evidence.json",
+    "source_file": "audit/benchmark_B_reassessment_2026-11-14/same_72_page_source_evidence.json",
+    "source_sha256": "ca547af50bd171824522e1d98dfbffd7604c5f6c5f021b316714dea60b1a426a",
+    "transformation": "Metadata-only existing common-source summary; no raw scan/text"
+  },
+  {
+    "release_file": "metadata/benchmark_b/page_image_correspondence.json",
+    "source_file": "audit/reference_validation/benchmark_B_page_image_correspondence.json",
+    "source_sha256": "03260100185b3b6294fb5248ab01bcfa29c23de71566e040d5c6cfad376ffc7f",
+    "transformation": "byte-identical copy"
+  },
+  {
+    "release_file": "metadata/yandex_provenance.json",
+    "source_file": "audit/recovered_evidence/protocol_checks/yandex_provenance.json",
+    "source_sha256": "6cae4e72f3958421d227d322d84aaa31f7e84223a011ec022078ec2205ca0b92",
+    "transformation": "Compact input-name/aggregate attribution record, no HTML diff"
+  },
+  {
+    "release_file": "code/reproduce.py",
+    "source_files": [
+      {
+        "path": "audit/scripts/reproduce_recovered_evidence.py",
+        "sha256": "37d4a85f3a034b757e19243e2dfc94bbdbbc6b4df6ed16e39577610a2e15e3c2"
+      },
+      {
+        "path": "audit/scripts/correct_benchmark_a_page_evaluation.py",
+        "sha256": "62796084a648119670014674bd441df861478a4557472a37091f2762787c8dd4"
+      },
+      {
+        "path": "audit/scripts/audit_recovered_protocols.py",
+        "sha256": "b3967ba710f7ffd3366baa473cac879bbadde5daaa3baf320b4a5adaf4e9a485"
+      },
+      {
+        "path": "audit/benchmark_B_reassessment_2026-11-14/reassess.py",
+        "sha256": "83a58620ef842d6ebc62d3717f942752dca8fe497bf4d4ac631eb94f654fc5f0"
+      }
+    ],
+    "transformation": "New portable IO/check adapter around exact preserved scoring functions and numeric offsets; no inference or source adjudication"
+  },
+  {
+    "release_file": "code/render_figures.py",
+    "source_files": [
+      {
+        "path": "audit/scripts/generate_verified_figures.py",
+        "sha256": "0aa1d7390435bd58419d84be1324d82253a4b7b8cdf3a6ebf1a8349303efb8ae"
+      }
+    ],
+    "transformation": "Portable paths and output/check wrapper; same two numerical plot data selections, geometry and labels"
+  }
+]

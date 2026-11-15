@@ -1,0 +1,15 @@
+{
+  "source": "OCR experiments\\Reports\\my_report.html",
+  "sha256": "1e9145c154cbbaa6b1008d147abf1a38ff1c860b3624229cd8f31610f738cefe",
+  "visible_input_filenames": [
+    "qara_sozder.txt",
+    "kara_sozder_yandex.txt"
+  ],
+  "printed_metrics": [
+    "CER: 0.1693",
+    "WER: 0.2091"
+  ],
+  "character_diff_columns": 4,
+  "raw_Yandex_file_present": false,
+  "disposition": "VERIFIED report identifies Qara Sozder, not A; printed aggregate not independently rerun. No OCR text reconstructed from diff markup."
+}

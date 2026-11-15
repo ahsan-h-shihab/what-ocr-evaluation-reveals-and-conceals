@@ -1,0 +1,12 @@
+{
+  "status": "EMPTY PROSPECTIVE TEMPLATE. No human judgments or approval supplied.",
+  "target_reference_approval": null,
+  "region_policy_approval": null,
+  "source_equivalence_approval": null,
+  "query_protocol_approval": null,
+  "clean_reference_system": null,
+  "systems": [],
+  "queries": [],
+  "documents": [],
+  "qrels": []
+}

@@ -1,0 +1,96 @@
+{
+  "status": "CORRECTED: one-reader visual boundary check against seven supplied scan pages; not an independent scholarly collation",
+  "coordinate_system": "Python codepoints after UTF-8-sig decoding and universal-newline reading; contiguous end-exclusive slices",
+  "reference_D": [
+    {
+      "page": 10,
+      "start_codepoint": 0,
+      "end_codepoint": 772,
+      "scan_page": 1
+    },
+    {
+      "page": 11,
+      "start_codepoint": 772,
+      "end_codepoint": 1370,
+      "scan_page": 2
+    },
+    {
+      "page": 12,
+      "start_codepoint": 1370,
+      "end_codepoint": 2607,
+      "scan_page": 3
+    },
+    {
+      "page": 13,
+      "start_codepoint": 2607,
+      "end_codepoint": 3373,
+      "scan_page": 4
+    },
+    {
+      "page": 14,
+      "start_codepoint": 3373,
+      "end_codepoint": 4682,
+      "scan_page": 5
+    },
+    {
+      "page": 15,
+      "start_codepoint": 4682,
+      "end_codepoint": 5542,
+      "scan_page": 6
+    },
+    {
+      "page": 16,
+      "start_codepoint": 5542,
+      "end_codepoint": 6368,
+      "scan_page": 7
+    }
+  ],
+  "Tesseract_export": [
+    {
+      "page": 10,
+      "start_codepoint": 0,
+      "end_codepoint": 787,
+      "scan_page": 1
+    },
+    {
+      "page": 11,
+      "start_codepoint": 787,
+      "end_codepoint": 1401,
+      "scan_page": 2
+    },
+    {
+      "page": 12,
+      "start_codepoint": 1401,
+      "end_codepoint": 2700,
+      "scan_page": 3
+    },
+    {
+      "page": 13,
+      "start_codepoint": 2700,
+      "end_codepoint": 3439,
+      "scan_page": 4
+    },
+    {
+      "page": 14,
+      "start_codepoint": 3439,
+      "end_codepoint": 4730,
+      "scan_page": 5
+    },
+    {
+      "page": 15,
+      "start_codepoint": 4730,
+      "end_codepoint": 5714,
+      "scan_page": 6
+    },
+    {
+      "page": 16,
+      "start_codepoint": 5714,
+      "end_codepoint": 6594,
+      "scan_page": 7
+    }
+  ],
+  "original_reference_sha256": "58f996644d5d864653e2cdf9fd2ca4e3cbb3d15bed19e71e553f30f00b9fc39e",
+  "working_reference_sha256": "3c3410a156cfdaed932d5849fcfeb48762193e8d2ad48db551328d9f67491426",
+  "Tesseract_sha256": "0d85f8bd37c69296ea2d4356890bae130abd360eae85f1bf5e8c11f8a440b8ed",
+  "text_preservation": "Concatenating the unnormalized slices exactly equals the working reference or original hypothesis respectively; no hypothesis characters fabricated."
+}

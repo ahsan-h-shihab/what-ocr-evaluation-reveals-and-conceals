@@ -1,0 +1,47 @@
+{
+  "purpose": "Offline evaluation of preserved outputs; not historical inference environment",
+  "audit_runtime": {
+    "Python": "3.12.1",
+    "RapidFuzz": "3.14.6",
+    "JiWER": "4.0.0"
+  },
+  "release_test_runtime": {
+    "Python": "3.12.1",
+    "RapidFuzz": "3.14.6",
+    "NumPy": "2.4.4",
+    "Matplotlib": "3.10.9"
+  },
+  "JiWER_needed_for_selected_release_commands": false,
+  "A_labels": [
+    "Gemma 3 27B",
+    "Gemma 3 12B",
+    "Gemma 3 4B",
+    "Llama 4 Scout",
+    "Tesseract"
+  ],
+  "DeepSeek": {
+    "model": "deepseek-ai/DeepSeek-OCR",
+    "precision": "bfloat16",
+    "base_size": 1024,
+    "image_size": 640,
+    "crop_mode": true,
+    "empty_output_max_retries": 10,
+    "stored_output_count": 72
+  },
+  "DP": {
+    "version": "dpt-2-mini-20251111",
+    "pages": 72,
+    "reported_failed_pages": []
+  },
+  "missing_historical_metadata": [
+    "complete A weight revisions/decoding/service dates",
+    "complete Tesseract version/language-pack/page-segmentation settings",
+    "full original inference environment"
+  ],
+  "source_records": [
+    "audit/recovered_evidence/reproduction/run_metadata.json",
+    "audit/recovered_evidence/protocol_checks/Test DeepSeek OCR_method_cells.json",
+    "audit/recovered_evidence/protocol_checks/LandingAI_method_cells.json",
+    "audit/benchmark_B_reassessment_2026-11-14/same_72_page_source_evidence.json"
+  ]
+}

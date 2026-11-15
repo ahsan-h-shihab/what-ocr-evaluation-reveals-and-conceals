@@ -1,0 +1,58 @@
+[
+  {
+    "region": "section_38_glossary",
+    "normalized_hypothesis_start": 102964,
+    "normalized_hypothesis_end": 107078,
+    "normalized_characters": 4114,
+    "tokens_in_region": 650,
+    "original_character_alignment_S": 0,
+    "original_character_alignment_D": 0,
+    "original_character_alignment_I": 4095,
+    "original_word_alignment_S": 0,
+    "original_word_alignment_D": 0,
+    "original_word_alignment_I": 650,
+    "interpretation": "Operations in unchanged original global alignment, not a new corrected score; some incidental matches/substitutions can align to note text."
+  },
+  {
+    "region": "postmatter_218_219",
+    "normalized_hypothesis_start": 124851,
+    "normalized_hypothesis_end": 125461,
+    "normalized_characters": 610,
+    "tokens_in_region": 89,
+    "original_character_alignment_S": 0,
+    "original_character_alignment_D": 0,
+    "original_character_alignment_I": 610,
+    "original_word_alignment_S": 0,
+    "original_word_alignment_D": 0,
+    "original_word_alignment_I": 89,
+    "interpretation": "Operations in unchanged original global alignment, not a new corrected score; some incidental matches/substitutions can align to note text."
+  },
+  {
+    "region": "section_43_endnotes",
+    "normalized_hypothesis_start": 121969,
+    "normalized_hypothesis_end": 122081,
+    "normalized_characters": 112,
+    "tokens_in_region": 17,
+    "original_character_alignment_S": 7,
+    "original_character_alignment_D": 0,
+    "original_character_alignment_I": 96,
+    "original_word_alignment_S": 0,
+    "original_word_alignment_D": 0,
+    "original_word_alignment_I": 17,
+    "interpretation": "Operations in unchanged original global alignment, not a new corrected score; some incidental matches/substitutions can align to note text."
+  },
+  {
+    "region": "section_27_endnotes",
+    "normalized_hypothesis_start": 53683,
+    "normalized_hypothesis_end": 53817,
+    "normalized_characters": 134,
+    "tokens_in_region": 22,
+    "original_character_alignment_S": 6,
+    "original_character_alignment_D": 0,
+    "original_character_alignment_I": 117,
+    "original_word_alignment_S": 0,
+    "original_word_alignment_D": 0,
+    "original_word_alignment_I": 22,
+    "interpretation": "Operations in unchanged original global alignment, not a new corrected score; some incidental matches/substitutions can align to note text."
+  }
+]

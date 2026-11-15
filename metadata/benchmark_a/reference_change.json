@@ -1,0 +1,14 @@
+{
+  "status": "CORRECTED working-reference sensitivity; author collation approval still required",
+  "original_sha256": "58f996644d5d864653e2cdf9fd2ca4e3cbb3d15bed19e71e553f30f00b9fc39e",
+  "removed_original_codepoint_span": [
+    3373,
+    4552
+  ],
+  "removed_codepoints": 1179,
+  "removed_poem_prefix_lines": 35,
+  "preserved_complete_second_copy": true,
+  "scan_evidence": "PDF physical page 5 / printed page 14 contains the poem once; all seven scan pages inspected",
+  "operation": "exact deletion of duplicated prefix; no new wording or other reference corrections",
+  "working_reference_sha256": "3c3410a156cfdaed932d5849fcfeb48762193e8d2ad48db551328d9f67491426"
+}

@@ -1,0 +1,654 @@
+{
+  "method": "No OCR: grayscale 96x144 raster comparison against every supplied scan page; this corroborates page content/order rather than authenticating a historical inference run.",
+  "all_72_nominal_pages_closest": true,
+  "records": [
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_001.jpg",
+      "sha256": "0f53fc41ce19276bc920d01d2040002500ac69bcbddf6e3a2dfbad4e62841b7c",
+      "nominal_pdf_page": 1,
+      "closest_rendered_pdf_page": 1,
+      "mean_absolute_pixel_difference_0_to_255": 1.5647424459457397,
+      "runner_up_mean_absolute_difference": 13.75217056274414,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_002.jpg",
+      "sha256": "020baf0f33e420a6133ef4862b376c5f387fc92100c6addd583cfae1becf86f0",
+      "nominal_pdf_page": 2,
+      "closest_rendered_pdf_page": 2,
+      "mean_absolute_pixel_difference_0_to_255": 2.0497684478759766,
+      "runner_up_mean_absolute_difference": 14.873408317565918,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_003.jpg",
+      "sha256": "eb6156598d4f936b8154b3a4ac8a59241210d81a50ade873fbd002544ff6eae4",
+      "nominal_pdf_page": 3,
+      "closest_rendered_pdf_page": 3,
+      "mean_absolute_pixel_difference_0_to_255": 1.7401620149612427,
+      "runner_up_mean_absolute_difference": 15.119574546813965,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_004.jpg",
+      "sha256": "b48c0e8f737bc0a0f3d7c632a58522aa3987ab552708fb7860ddd439b2956e90",
+      "nominal_pdf_page": 4,
+      "closest_rendered_pdf_page": 4,
+      "mean_absolute_pixel_difference_0_to_255": 1.252314805984497,
+      "runner_up_mean_absolute_difference": 12.115885734558105,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_005.jpg",
+      "sha256": "a3803135ea3f9a0fb6b9423dd7fc098bb4f3ebb97c1dffba0162d0141f0b2e2a",
+      "nominal_pdf_page": 5,
+      "closest_rendered_pdf_page": 5,
+      "mean_absolute_pixel_difference_0_to_255": 1.2942708730697632,
+      "runner_up_mean_absolute_difference": 15.296296119689941,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_006.jpg",
+      "sha256": "635679111e6ddec1965b6178473d33ca7de0ee27c589d6b90a22f3c379c5aad3",
+      "nominal_pdf_page": 6,
+      "closest_rendered_pdf_page": 6,
+      "mean_absolute_pixel_difference_0_to_255": 1.656611680984497,
+      "runner_up_mean_absolute_difference": 14.222511291503906,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_007.jpg",
+      "sha256": "8f6a866fef1f355a0de05e927dbc7c11451722aded93a1c0d3ceef82db6ec605",
+      "nominal_pdf_page": 7,
+      "closest_rendered_pdf_page": 7,
+      "mean_absolute_pixel_difference_0_to_255": 1.0428240299224854,
+      "runner_up_mean_absolute_difference": 14.45421028137207,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_008.jpg",
+      "sha256": "5a756ff0a55ceaf7541929e3d1f9d74022deae173db72d826af01b8c945e4f09",
+      "nominal_pdf_page": 8,
+      "closest_rendered_pdf_page": 8,
+      "mean_absolute_pixel_difference_0_to_255": 1.7693865299224854,
+      "runner_up_mean_absolute_difference": 11.244647026062012,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_009.jpg",
+      "sha256": "b5887a1927f13117b23ec8e0baf1335f4086870d1317067a1e80e49e934da4ca",
+      "nominal_pdf_page": 9,
+      "closest_rendered_pdf_page": 9,
+      "mean_absolute_pixel_difference_0_to_255": 1.9934896230697632,
+      "runner_up_mean_absolute_difference": 15.106481552124023,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_010.jpg",
+      "sha256": "3e4198d0087bc14ee807ce7c061a1934afb429fefc320d45e5c385e0176ece68",
+      "nominal_pdf_page": 10,
+      "closest_rendered_pdf_page": 10,
+      "mean_absolute_pixel_difference_0_to_255": 2.022207736968994,
+      "runner_up_mean_absolute_difference": 12.545066833496094,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_011.jpg",
+      "sha256": "f30d1678a5b46e648ea06241513c3d84e624e1a60b9ce189e478e9412b3f86db",
+      "nominal_pdf_page": 11,
+      "closest_rendered_pdf_page": 11,
+      "mean_absolute_pixel_difference_0_to_255": 1.0134549140930176,
+      "runner_up_mean_absolute_difference": 12.484519958496094,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_012.jpg",
+      "sha256": "0a9435896f7f995d091ebc48b3710b32568bcff1f2a425fe6fbe66913fd50966",
+      "nominal_pdf_page": 12,
+      "closest_rendered_pdf_page": 12,
+      "mean_absolute_pixel_difference_0_to_255": 1.066767930984497,
+      "runner_up_mean_absolute_difference": 11.036747932434082,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_013.jpg",
+      "sha256": "02029b0b3adde057b584cd5dc8d80bcc6921be919afbcb62d29ea143360a9684",
+      "nominal_pdf_page": 13,
+      "closest_rendered_pdf_page": 13,
+      "mean_absolute_pixel_difference_0_to_255": 1.0088975429534912,
+      "runner_up_mean_absolute_difference": 14.877459526062012,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_014.jpg",
+      "sha256": "2c21184cd1bed200581b647af5ab791a50aeb1495b0f88c68f656c5d55130316",
+      "nominal_pdf_page": 14,
+      "closest_rendered_pdf_page": 14,
+      "mean_absolute_pixel_difference_0_to_255": 1.2384259700775146,
+      "runner_up_mean_absolute_difference": 14.79665756225586,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_015.jpg",
+      "sha256": "57c21d62ee86650e9f5588caa84e7bdec62be65f7fbe4b986304a709e3f4340c",
+      "nominal_pdf_page": 15,
+      "closest_rendered_pdf_page": 15,
+      "mean_absolute_pixel_difference_0_to_255": 1.029658555984497,
+      "runner_up_mean_absolute_difference": 13.875651359558105,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_016.jpg",
+      "sha256": "6773b565d82f57b336a55fb7a18670c7caf7ff41fd9954723f5a4099923324b0",
+      "nominal_pdf_page": 16,
+      "closest_rendered_pdf_page": 16,
+      "mean_absolute_pixel_difference_0_to_255": 0.9197772145271301,
+      "runner_up_mean_absolute_difference": 15.133463859558105,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_017.jpg",
+      "sha256": "a7972bc347acd21ce9246a0d7ca5ad781aac451857c91ac14bca00035dbafd9a",
+      "nominal_pdf_page": 17,
+      "closest_rendered_pdf_page": 17,
+      "mean_absolute_pixel_difference_0_to_255": 1.9479166269302368,
+      "runner_up_mean_absolute_difference": 12.752748489379883,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_018.jpg",
+      "sha256": "e8f36933a82728163847c99494c36305c776b799c21bd91a90cfbb1dfcecf2e6",
+      "nominal_pdf_page": 18,
+      "closest_rendered_pdf_page": 18,
+      "mean_absolute_pixel_difference_0_to_255": 1.5723379850387573,
+      "runner_up_mean_absolute_difference": 14.816912651062012,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_019.jpg",
+      "sha256": "852ded93d35b1ece3cbc2e9aba48218eaa890f7749c50529814b3fc2a65de969",
+      "nominal_pdf_page": 19,
+      "closest_rendered_pdf_page": 19,
+      "mean_absolute_pixel_difference_0_to_255": 1.7275751829147339,
+      "runner_up_mean_absolute_difference": 13.328125,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_020.jpg",
+      "sha256": "81d93723e3d0a7f24d161be9ae5816d77831ea40c64bc02bc2950076dba2cee5",
+      "nominal_pdf_page": 20,
+      "closest_rendered_pdf_page": 20,
+      "mean_absolute_pixel_difference_0_to_255": 2.1098814010620117,
+      "runner_up_mean_absolute_difference": 13.147279739379883,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_021.jpg",
+      "sha256": "963cf87e6b72048697e62ab64594baae024d668c45402fbce9dd518da01f0436",
+      "nominal_pdf_page": 21,
+      "closest_rendered_pdf_page": 21,
+      "mean_absolute_pixel_difference_0_to_255": 1.2230902910232544,
+      "runner_up_mean_absolute_difference": 11.723380088806152,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_022.jpg",
+      "sha256": "6505c6e7d0478db3d8c3d546fefe8609e2ab5050c6e5671b7e8190d08cd159d3",
+      "nominal_pdf_page": 22,
+      "closest_rendered_pdf_page": 22,
+      "mean_absolute_pixel_difference_0_to_255": 1.5199652910232544,
+      "runner_up_mean_absolute_difference": 13.087818145751953,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_023.jpg",
+      "sha256": "8c378811c96b261a6245663281a2069e67ac237f102951634d41a317e4a3dbaf",
+      "nominal_pdf_page": 23,
+      "closest_rendered_pdf_page": 23,
+      "mean_absolute_pixel_difference_0_to_255": 1.661747694015503,
+      "runner_up_mean_absolute_difference": 12.770760536193848,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_024.jpg",
+      "sha256": "fe7fc23e0a6c822d26c2bcb434c590949837bd0447ea6b8a696f9209f3daf00e",
+      "nominal_pdf_page": 24,
+      "closest_rendered_pdf_page": 24,
+      "mean_absolute_pixel_difference_0_to_255": 1.8106192350387573,
+      "runner_up_mean_absolute_difference": 10.627387046813965,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_025.jpg",
+      "sha256": "de4d074f818948a3757fc0135e88a0109b0519236057e2de4967526a3619e6b9",
+      "nominal_pdf_page": 25,
+      "closest_rendered_pdf_page": 25,
+      "mean_absolute_pixel_difference_0_to_255": 1.3374565839767456,
+      "runner_up_mean_absolute_difference": 13.465567588806152,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_026.jpg",
+      "sha256": "0f37d1fd73b184071b3d04cb250d46a9e84c1f004df85d71da68d5ccf0640dd4",
+      "nominal_pdf_page": 26,
+      "closest_rendered_pdf_page": 26,
+      "mean_absolute_pixel_difference_0_to_255": 2.4840855598449707,
+      "runner_up_mean_absolute_difference": 16.110097885131836,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_027.jpg",
+      "sha256": "399bcdd6fb1ef250009d7d4731dfb0585ccd94b17677789d8130f05d923bd4a3",
+      "nominal_pdf_page": 27,
+      "closest_rendered_pdf_page": 27,
+      "mean_absolute_pixel_difference_0_to_255": 1.4289641380310059,
+      "runner_up_mean_absolute_difference": 12.922887802124023,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_028.jpg",
+      "sha256": "8230928c9f160d07ef4a8a313c5e9e3d7571cdca688f506c00b6abf67de3c435",
+      "nominal_pdf_page": 28,
+      "closest_rendered_pdf_page": 28,
+      "mean_absolute_pixel_difference_0_to_255": 2.0075230598449707,
+      "runner_up_mean_absolute_difference": 12.305482864379883,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_029.jpg",
+      "sha256": "f8d5c94b6430f9a6a9864ddaffef3122f9bb874f3aa72e57084ef84779abd7f9",
+      "nominal_pdf_page": 29,
+      "closest_rendered_pdf_page": 29,
+      "mean_absolute_pixel_difference_0_to_255": 1.1723814010620117,
+      "runner_up_mean_absolute_difference": 14.48459243774414,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_030.jpg",
+      "sha256": "aeb19dbc89ed90029c7b9cd530023029bc848fc706cbf5923043a5bc310d08a5",
+      "nominal_pdf_page": 30,
+      "closest_rendered_pdf_page": 30,
+      "mean_absolute_pixel_difference_0_to_255": 1.2302517890930176,
+      "runner_up_mean_absolute_difference": 14.633463859558105,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_031.jpg",
+      "sha256": "749886a26e293adb47cad5e26e9baa9f19fd7cb5fbbd4f759b04c769cc0007e7",
+      "nominal_pdf_page": 31,
+      "closest_rendered_pdf_page": 31,
+      "mean_absolute_pixel_difference_0_to_255": 2.5596065521240234,
+      "runner_up_mean_absolute_difference": 12.46875,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_032.jpg",
+      "sha256": "680cb0c247f9d66b9e21e80d50e7868163923ae23c200d360f398d9b5aacff11",
+      "nominal_pdf_page": 32,
+      "closest_rendered_pdf_page": 32,
+      "mean_absolute_pixel_difference_0_to_255": 1.379267930984497,
+      "runner_up_mean_absolute_difference": 12.052155494689941,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_033.jpg",
+      "sha256": "aaafe51fd453f214d6017518ca0fa6ce4d1d73b6273627af472c3408b791ac63",
+      "nominal_pdf_page": 33,
+      "closest_rendered_pdf_page": 33,
+      "mean_absolute_pixel_difference_0_to_255": 2.4201388359069824,
+      "runner_up_mean_absolute_difference": 14.398148536682129,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_034.jpg",
+      "sha256": "af2b9ac98466ff99ce2842a91bb71d20834bfe59b7ef1751115eb75ef702077e",
+      "nominal_pdf_page": 34,
+      "closest_rendered_pdf_page": 34,
+      "mean_absolute_pixel_difference_0_to_255": 1.9016203880310059,
+      "runner_up_mean_absolute_difference": 11.612629890441895,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_035.jpg",
+      "sha256": "acac01dfc096b52c4936f25ef12c0a04716da401637b2d25a58f803de4749cf8",
+      "nominal_pdf_page": 35,
+      "closest_rendered_pdf_page": 35,
+      "mean_absolute_pixel_difference_0_to_255": 1.4545717239379883,
+      "runner_up_mean_absolute_difference": 13.50998306274414,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_036.jpg",
+      "sha256": "d25c98f286e31e27482866b30268a853ed015bcb99713ea5fe4ef8f52cab4070",
+      "nominal_pdf_page": 36,
+      "closest_rendered_pdf_page": 36,
+      "mean_absolute_pixel_difference_0_to_255": 1.1843894720077515,
+      "runner_up_mean_absolute_difference": 14.964482307434082,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_037.jpg",
+      "sha256": "130de993c137176b381cfb8c73fdeda4dca720cebd299c9996fdc78e73a7262e",
+      "nominal_pdf_page": 37,
+      "closest_rendered_pdf_page": 37,
+      "mean_absolute_pixel_difference_0_to_255": 2.0647425651550293,
+      "runner_up_mean_absolute_difference": 14.36501693725586,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_038.jpg",
+      "sha256": "52bc6dd7528c83ebc4517bfb2ea701501588afa69f0d74ae88b7f3ae98587456",
+      "nominal_pdf_page": 38,
+      "closest_rendered_pdf_page": 38,
+      "mean_absolute_pixel_difference_0_to_255": 1.263671875,
+      "runner_up_mean_absolute_difference": 11.806061744689941,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_039.jpg",
+      "sha256": "4fcf17b99ddf5fd103438860577b3d6264de41b0fed8489ec1acd7e15cecd1eb",
+      "nominal_pdf_page": 39,
+      "closest_rendered_pdf_page": 39,
+      "mean_absolute_pixel_difference_0_to_255": 2.6044559478759766,
+      "runner_up_mean_absolute_difference": 14.917173385620117,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_040.jpg",
+      "sha256": "60928e66a383e72fdc06790c9e911a8ffaffb9da51ee6798685d339c17b008e9",
+      "nominal_pdf_page": 40,
+      "closest_rendered_pdf_page": 40,
+      "mean_absolute_pixel_difference_0_to_255": 1.4764901399612427,
+      "runner_up_mean_absolute_difference": 11.227213859558105,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_041.jpg",
+      "sha256": "912e37f85881573da1e6de30bc208562c93455236c448c3a3b7d74a1d966bd09",
+      "nominal_pdf_page": 41,
+      "closest_rendered_pdf_page": 41,
+      "mean_absolute_pixel_difference_0_to_255": 2.7317707538604736,
+      "runner_up_mean_absolute_difference": 11.75759506225586,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_042.jpg",
+      "sha256": "718218feecc9d2e4f53a88cfbbc89ad80bb6b348dbede24d3fda22fde0c5bfe1",
+      "nominal_pdf_page": 42,
+      "closest_rendered_pdf_page": 42,
+      "mean_absolute_pixel_difference_0_to_255": 1.6234809160232544,
+      "runner_up_mean_absolute_difference": 15.412688255310059,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_043.jpg",
+      "sha256": "fc8e4426cc9b0c29abaa67ade0495a2b2aecf40cc8fb0cfaaee306e22207b1cf",
+      "nominal_pdf_page": 43,
+      "closest_rendered_pdf_page": 43,
+      "mean_absolute_pixel_difference_0_to_255": 0.7858796119689941,
+      "runner_up_mean_absolute_difference": 13.333911895751953,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_044.jpg",
+      "sha256": "11378c7c8415c074bfaeba83f38df647c800261262d48c7e10e243aed58e9910",
+      "nominal_pdf_page": 44,
+      "closest_rendered_pdf_page": 44,
+      "mean_absolute_pixel_difference_0_to_255": 1.7939091920852661,
+      "runner_up_mean_absolute_difference": 14.343677520751953,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_045.jpg",
+      "sha256": "8c463ce34295343479035d647ac39d969222801726476586352715b9ebe76a41",
+      "nominal_pdf_page": 45,
+      "closest_rendered_pdf_page": 45,
+      "mean_absolute_pixel_difference_0_to_255": 2.001229763031006,
+      "runner_up_mean_absolute_difference": 13.30360221862793,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_046.jpg",
+      "sha256": "cbf277d712d65d505482f19c1d4452e6fdcdcffcb827274294975c9311d2d91c",
+      "nominal_pdf_page": 46,
+      "closest_rendered_pdf_page": 46,
+      "mean_absolute_pixel_difference_0_to_255": 1.6899595260620117,
+      "runner_up_mean_absolute_difference": 11.86111068725586,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_047.jpg",
+      "sha256": "01986eccec6776cb57b4bd8db8f10540e7cb2a3137ab38e0bfcb7921e0bd101a",
+      "nominal_pdf_page": 47,
+      "closest_rendered_pdf_page": 47,
+      "mean_absolute_pixel_difference_0_to_255": 2.6388165950775146,
+      "runner_up_mean_absolute_difference": 13.449146270751953,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_048.jpg",
+      "sha256": "0fc8338bb957a3b4d85df65e6cbf27eaeec4423791c12fa669c8601d53e680da",
+      "nominal_pdf_page": 48,
+      "closest_rendered_pdf_page": 48,
+      "mean_absolute_pixel_difference_0_to_255": 1.6401909589767456,
+      "runner_up_mean_absolute_difference": 12.634765625,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_049.jpg",
+      "sha256": "767c1147a092f7219b12667390431b72c8a5c7c7ba13d741dc4451f4edf05f03",
+      "nominal_pdf_page": 49,
+      "closest_rendered_pdf_page": 49,
+      "mean_absolute_pixel_difference_0_to_255": 1.9809751510620117,
+      "runner_up_mean_absolute_difference": 15.048755645751953,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_050.jpg",
+      "sha256": "6e429ef86686dad12dc5296308af8e0dc8a48984d45a3cd004639b1a2b43d7ae",
+      "nominal_pdf_page": 50,
+      "closest_rendered_pdf_page": 50,
+      "mean_absolute_pixel_difference_0_to_255": 1.6577690839767456,
+      "runner_up_mean_absolute_difference": 11.163122177124023,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_051.jpg",
+      "sha256": "5fa4f1288fe50f024fc5d62fdbdfb55696c97bbdf2423b5254dedab552d48e7d",
+      "nominal_pdf_page": 51,
+      "closest_rendered_pdf_page": 51,
+      "mean_absolute_pixel_difference_0_to_255": 1.4610098600387573,
+      "runner_up_mean_absolute_difference": 12.354744911193848,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_052.jpg",
+      "sha256": "1073bc057fd3a82c3da2531e05cc011d8973ef2532bfccab12d884114e3b2417",
+      "nominal_pdf_page": 52,
+      "closest_rendered_pdf_page": 52,
+      "mean_absolute_pixel_difference_0_to_255": 2.0893373489379883,
+      "runner_up_mean_absolute_difference": 10.839698791503906,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_053.jpg",
+      "sha256": "807c4f9e926a8d510c5c3797c89dee623a84af77ee7057930bd70b54f8a685eb",
+      "nominal_pdf_page": 53,
+      "closest_rendered_pdf_page": 53,
+      "mean_absolute_pixel_difference_0_to_255": 2.181206703186035,
+      "runner_up_mean_absolute_difference": 10.119791984558105,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_054.jpg",
+      "sha256": "7a2d1e709a2a05bf0572fd6f2fd673aa1c80f8f97a4c84c112854434bffc64f3",
+      "nominal_pdf_page": 54,
+      "closest_rendered_pdf_page": 54,
+      "mean_absolute_pixel_difference_0_to_255": 2.034288167953491,
+      "runner_up_mean_absolute_difference": 11.92599868774414,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_055.jpg",
+      "sha256": "8b8f36ee57c4389b72df277c79b930fa0550e0548b7f90cd924efba15fcf7d9a",
+      "nominal_pdf_page": 55,
+      "closest_rendered_pdf_page": 55,
+      "mean_absolute_pixel_difference_0_to_255": 1.619140625,
+      "runner_up_mean_absolute_difference": 10.356481552124023,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_056.jpg",
+      "sha256": "4d71d8cae04239392688b1da9d5cbc655ac4fde980c0e9624662b99a862eae2f",
+      "nominal_pdf_page": 56,
+      "closest_rendered_pdf_page": 56,
+      "mean_absolute_pixel_difference_0_to_255": 1.2560763359069824,
+      "runner_up_mean_absolute_difference": 11.637297630310059,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_057.jpg",
+      "sha256": "464f610774e6d6f5c83e3ab71665e6d9fada90652acbf5360c8a07d6732a088c",
+      "nominal_pdf_page": 57,
+      "closest_rendered_pdf_page": 57,
+      "mean_absolute_pixel_difference_0_to_255": 2.184389352798462,
+      "runner_up_mean_absolute_difference": 13.600333213806152,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_058.jpg",
+      "sha256": "63336c5d22510db1ff7cbf9e6c4f3d5be79f75cdfa3a081e3c3f74d3f2ae3b2a",
+      "nominal_pdf_page": 58,
+      "closest_rendered_pdf_page": 58,
+      "mean_absolute_pixel_difference_0_to_255": 3.617983102798462,
+      "runner_up_mean_absolute_difference": 12.765552520751953,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_059.jpg",
+      "sha256": "a133db6cea849a513282ae14f8e8836ab4ae0ace49b67ffe8da9039b1798f812",
+      "nominal_pdf_page": 59,
+      "closest_rendered_pdf_page": 59,
+      "mean_absolute_pixel_difference_0_to_255": 1.5771845579147339,
+      "runner_up_mean_absolute_difference": 12.363860130310059,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_060.jpg",
+      "sha256": "2d851ec9bc8197b90a4d4d4f58a1279e9e6a502bc032360e45c409343c1a1071",
+      "nominal_pdf_page": 60,
+      "closest_rendered_pdf_page": 60,
+      "mean_absolute_pixel_difference_0_to_255": 2.5860097408294678,
+      "runner_up_mean_absolute_difference": 13.957392692565918,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_061.jpg",
+      "sha256": "bc649d231ac1a93d2ffdf6cd7933313b4ea6180cd210117f0c589fd4da5b22e1",
+      "nominal_pdf_page": 61,
+      "closest_rendered_pdf_page": 61,
+      "mean_absolute_pixel_difference_0_to_255": 2.4552950859069824,
+      "runner_up_mean_absolute_difference": 15.424407005310059,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_062.jpg",
+      "sha256": "bbdff45adc1a08b3025dacb725848944419534922b2c26ebdf3173c2aa0f7350",
+      "nominal_pdf_page": 62,
+      "closest_rendered_pdf_page": 62,
+      "mean_absolute_pixel_difference_0_to_255": 1.5475260019302368,
+      "runner_up_mean_absolute_difference": 12.798539161682129,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_063.jpg",
+      "sha256": "a862842373625283d54b1ea8ad829d8239be4ae25fa4cb2d16f33982b7b06e59",
+      "nominal_pdf_page": 63,
+      "closest_rendered_pdf_page": 63,
+      "mean_absolute_pixel_difference_0_to_255": 1.4680989980697632,
+      "runner_up_mean_absolute_difference": 12.904224395751953,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_064.jpg",
+      "sha256": "bbf8f56205257599cdfae1977aab18edd01dd5655746debc78bde93c4d16c825",
+      "nominal_pdf_page": 64,
+      "closest_rendered_pdf_page": 64,
+      "mean_absolute_pixel_difference_0_to_255": 1.190031886100769,
+      "runner_up_mean_absolute_difference": 14.407551765441895,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_065.jpg",
+      "sha256": "021ea58e239ad022bf9bcfae9514a4aee9e97156838eae8f6da8798293f51ff7",
+      "nominal_pdf_page": 65,
+      "closest_rendered_pdf_page": 65,
+      "mean_absolute_pixel_difference_0_to_255": 1.099247694015503,
+      "runner_up_mean_absolute_difference": 14.704933166503906,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_066.jpg",
+      "sha256": "3ae3a1b6c1ea02f94326c725b2af0b60c4f6824486b592d793f52b7734b46f99",
+      "nominal_pdf_page": 66,
+      "closest_rendered_pdf_page": 66,
+      "mean_absolute_pixel_difference_0_to_255": 2.4962384700775146,
+      "runner_up_mean_absolute_difference": 11.527416229248047,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_067.jpg",
+      "sha256": "a7708bce095ff8cd7d2c141ed3765a7569bca4d6872e36163bcc689539f9378e",
+      "nominal_pdf_page": 67,
+      "closest_rendered_pdf_page": 67,
+      "mean_absolute_pixel_difference_0_to_255": 1.5601128339767456,
+      "runner_up_mean_absolute_difference": 15.488715171813965,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_068.jpg",
+      "sha256": "809bda6350ebf891716242ad19cf45d9758b5d071ddbb9a75bf8aebeff85ec6f",
+      "nominal_pdf_page": 68,
+      "closest_rendered_pdf_page": 68,
+      "mean_absolute_pixel_difference_0_to_255": 1.3044705390930176,
+      "runner_up_mean_absolute_difference": 11.619140625,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_069.jpg",
+      "sha256": "35bddff8da525224c4c4aeaa60367ada12500f796d77a4533c852d9ced98e845",
+      "nominal_pdf_page": 69,
+      "closest_rendered_pdf_page": 69,
+      "mean_absolute_pixel_difference_0_to_255": 3.5267651081085205,
+      "runner_up_mean_absolute_difference": 15.434245109558105,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_070.jpg",
+      "sha256": "f7a70bd86d85e76bad34a0cfceb5b53f74ac107c5b974fd576951f27c68ad9bc",
+      "nominal_pdf_page": 70,
+      "closest_rendered_pdf_page": 70,
+      "mean_absolute_pixel_difference_0_to_255": 3.214409828186035,
+      "runner_up_mean_absolute_difference": 14.04079818725586,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_071.jpg",
+      "sha256": "236ef2aa850980710915f8794fde2cc77c2b8511e95b7d74bfebaa28a7deb872",
+      "nominal_pdf_page": 71,
+      "closest_rendered_pdf_page": 71,
+      "mean_absolute_pixel_difference_0_to_255": 2.578558921813965,
+      "runner_up_mean_absolute_difference": 15.026114463806152,
+      "nominal_page_is_closest": true
+    },
+    {
+      "saved_image": "OCR experiments/evaluation_release/data/benchmark_b/page_images/page_072.jpg",
+      "sha256": "869310cfc15b24a1526cc06dbcb1383bda4ad66b2962b97ff4d2dde4c721ee48",
+      "nominal_pdf_page": 72,
+      "closest_rendered_pdf_page": 72,
+      "mean_absolute_pixel_difference_0_to_255": 0.44538483023643494,
+      "runner_up_mean_absolute_difference": 15.120948791503906,
+      "nominal_page_is_closest": true
+    }
+  ]
+}

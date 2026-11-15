@@ -1,0 +1,140 @@
+{
+  "scope": "These 15 inputs are excluded from this release; hashes identify preserved local files, not historical inference attestation",
+  "inputs": [
+    {
+      "input_path": "benchmark_a/reference_S.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_a/reference_Abay_olender_1976_pages_10_16.txt",
+      "bytes": 13817,
+      "sha256": "58f996644d5d864653e2cdf9fd2ca4e3cbb3d15bed19e71e553f30f00b9fc39e",
+      "role": "supplied A reference S",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_a/Gemma_27B_output.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_a/Gemma_27B_output.txt",
+      "bytes": 11883,
+      "sha256": "85a3b9027228905be1efce509b4651387be548632302578f2918e27779d863ad",
+      "role": "saved A hypothesis",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_a/Gemma_12B_output.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_a/Gemma_12B_output.txt",
+      "bytes": 11858,
+      "sha256": "f80fdf2bd69b7f112d6767d9447c0695f33f0d3a3a43394d1d071da19f2127d3",
+      "role": "saved A hypothesis",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_a/Gemma_4B_output.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_a/Gemma_4B_output.txt",
+      "bytes": 11887,
+      "sha256": "4fa91135e69f6f3b1b36579e04bd45d9bb981357a94fe8596108ead964688258",
+      "role": "saved A hypothesis",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_a/Llama4_Scout_output.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_a/Llama4_Scout_output.txt",
+      "bytes": 11938,
+      "sha256": "f1120b6cdf969def14fda1a598546a9d6ada77d95f260b70242728a382d54dcd",
+      "role": "saved A hypothesis",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_a/Tesseract.txt",
+      "repository_path": "OCR experiments/tesseract_evaluation/tesseract_abay_olender_pages_10_16.txt",
+      "bytes": 12033,
+      "sha256": "0d85f8bd37c69296ea2d4356890bae130abd360eae85f1bf5e8c11f8a440b8ed",
+      "role": "saved concatenated A hypothesis",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_b/reference_pravda.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_b/reference_pravda.txt",
+      "bytes": 216727,
+      "sha256": "a114f8746b4ce1c519e26b2675384398997a1895d28c8fc27a090aebe9d761d2",
+      "role": "supplied B scoring reference",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_b/DeepSeek_OCR_prediction.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_b/DeepSeek_OCR_prediction.txt",
+      "bytes": 214297,
+      "sha256": "5d7d5f449261d6eaba5733b1036d1fbf2aae5a9d5c640bcc53de8d2e7e210e1c",
+      "role": "saved B hypothesis",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_b/DP2_mini_LandingAI_prediction.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_b/DP2_mini_LandingAI_prediction.txt",
+      "bytes": 219302,
+      "sha256": "fdcd2fa56bd732a1c42669c05eddce5cd8ec154a50b628629bd7cebd8bc9a221",
+      "role": "saved B hypothesis",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "benchmark_b/Tesseract_Abai_Karasoz_201096.txt",
+      "repository_path": "OCR experiments/evaluation_release/data/benchmark_b/Tesseract_Abai_Karasoz_201096.txt",
+      "bytes": 317873,
+      "sha256": "c3ff0b8cd1b2736198260121f4125bc0ba6481ddaaeb6506bdad89ee07e1fd09",
+      "role": "saved B hypothesis",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "correction/Abay_olender.txt",
+      "repository_path": "OCR experiments/Reports/librag/librag/spell checker -20260530T085335Z-3-001/spell checker/book1/Abay_olender.txt",
+      "bytes": 13817,
+      "sha256": "58f996644d5d864653e2cdf9fd2ca4e3cbb3d15bed19e71e553f30f00b9fc39e",
+      "role": "saved correction scoring input",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "correction/ocr llama_vision_output.txt",
+      "repository_path": "OCR experiments/Reports/librag/librag/spell checker -20260530T085335Z-3-001/spell checker/book1/ocr llama_vision_output.txt",
+      "bytes": 11835,
+      "sha256": "fd0dfe43b52f7e91ee2a03e6e8e16de06069acfc1d2953f638cace1a15406a63",
+      "role": "saved correction scoring input",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "correction/book1_custom_corrected.txt",
+      "repository_path": "OCR experiments/Reports/librag/librag/spell checker -20260530T085335Z-3-001/spell checker/book1/book1_custom_corrected.txt",
+      "bytes": 11085,
+      "sha256": "fc0b2680060d945c1efa402d235b8844946602b2cd0d31b33f59d195cef8cd73",
+      "role": "saved correction scoring input",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "correction/book1_corrected.txt",
+      "repository_path": "OCR experiments/Reports/librag/librag/spell checker -20260530T085335Z-3-001/spell checker/book1/book1_corrected.txt",
+      "bytes": 11085,
+      "sha256": "6d0cad7686c71eda8ea37bf36f8b2ccf7899e92492295091108de0b4168c28ab",
+      "role": "saved correction scoring input",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    },
+    {
+      "input_path": "correction/book1_yandex_corrected.txt",
+      "repository_path": "OCR experiments/Reports/librag/librag/spell checker -20260530T085335Z-3-001/spell checker/book1/book1_yandex_corrected.txt",
+      "bytes": 11085,
+      "sha256": "8831c874d05092f27f2c3c00e2ef2e3ead997551d22db3ec2d61ab00a43f5e09",
+      "role": "saved correction scoring input",
+      "included": false,
+      "access": "Author-approved lawful access not yet arranged"
+    }
+  ]
+}
