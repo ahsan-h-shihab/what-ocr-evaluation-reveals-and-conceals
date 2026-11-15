@@ -1,12 +1,8 @@
 # What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR
 
-Research artifacts for **Retrieval-Aware Evaluation of Printed Kazakh Book OCR: Reference Integrity, Transcription, and Structural Diagnostics**.
+This repository provides reproducible code, aggregate evidence, and figure-generation assets for examining the reliability of OCR evaluation on printed Kazakh books.
 
-**What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR** provides code, aggregate evidence and figure-generation assets for evaluating archived printed Kazakh book OCR. It examines reference integrity in poetry, reference agreement and text-representation sensitivity in prose, and the failure modes of legacy positional-target retrieval evaluation. These analyses distinguish reference-distance measurements from absolute OCR accuracy and diagnostic retrieval records from evidence of retrieval effectiveness.
-
-Existing repository: [what-ocr-evaluation-reveals-and-conceals](https://github.com/ahsan-h-shihab/what-ocr-evaluation-reveals-and-conceals). This package is the approved initial code-and-aggregate release for that repository.
-
-**Initial public release approved by the repository owner.** Required publication permissions and human approvals for the reviewed 68 files were confirmed. No project-wide reuse license has been applied. The manuscript itself, author photographs and source books are excluded.
+The study investigates reference integrity in poetry, reference agreement and text-representation sensitivity in prose, and failure modes in legacy positional-target retrieval evaluation. It distinguishes reference-distance measurements from absolute OCR accuracy and diagnostic retrieval records from evidence of retrieval effectiveness.
 
 ## Visual Overview
 
@@ -149,8 +145,4 @@ This list identifies repository contributors without assigning additional roles.
 
 Use [CITATION.cff](CITATION.cff) for the staged software/artifact package and associated manuscript metadata. The software record lists the two repository contributors. Its preferred manuscript citation preserves the approved title and all six scholarly authors. The existing repository URL is recorded; no DOI or publication date is assigned.
 
-Initial public distribution of these 68 files is approved. No project-wide reuse license has been applied; MIT and CC BY 4.0 remain unapplied. [RIGHTS_AND_REUSE.md](RIGHTS_AND_REUSE.md) records this status, and [DATA_POLICY.md](DATA_POLICY.md) distinguishes aggregates, restricted source material and third-party assets. The Noto fonts retain their existing Apache-2.0 terms.
-
-[Outstanding human decisions](OUTSTANDING_DECISIONS.md)
-
-The validation and staging records preserve dated pre-publication checks. Their earlier approval-pending notices describe the state at the time of those checks. The repository owner subsequently approved this initial release; no new reuse license was applied.
+No project-wide reuse license has been assigned. See [RIGHTS_AND_REUSE.md](RIGHTS_AND_REUSE.md) and [DATA_POLICY.md](DATA_POLICY.md) for permissions, reuse conditions, and data exclusions.

@@ -390,8 +390,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14522,
-      "sha256": "97ae7f5dc1a71fe831b92313ca2ab43098041e319f6879edf81d85dcb79833a9",
+      "bytes": 13267,
+      "sha256": "aef2dd9e1f727f1b2a6d476e527441247a3217dee07f6007665f560f70311c9d",
       "origin": "Documented staging addition",
       "justification": "Requested final-methodology documentation and inline Visual Overview."
     },
