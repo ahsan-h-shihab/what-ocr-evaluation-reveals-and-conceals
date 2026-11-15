@@ -142,15 +142,6 @@ Historical OCR inference and external spelling services cannot be reconstructed 
 
 [File-integrity manifest](MANIFEST.json) · [Source-access policy](SOURCE_ACCESS.md)
 
-## Repository contributors
-
-The repository-level human contributors are:
-
-- [Ahsan Habib Shihab](https://github.com/ahsan-h-shihab)
-- [Iskander Akhmetov](https://github.com/iskander-akhmetov)
-
-This list identifies repository contributors without assigning additional roles. The associated manuscript retains its six scholarly authors and approved citation title.
-
 ## Citation and reuse
 
 Use [CITATION.cff](CITATION.cff) for the software/artifact package and associated manuscript metadata. The software record lists the two repository contributors. Its preferred manuscript citation preserves the approved title and all six scholarly authors. The existing repository URL is recorded; no DOI or publication date is assigned.
