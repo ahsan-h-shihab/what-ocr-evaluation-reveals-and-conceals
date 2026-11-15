@@ -1,4 +1,4 @@
-# What OCR Evaluation Reveals and Conceals: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR
+# What OCR Scores Conceal: Reference Integrity, Text Representation, and Retrieval Diagnostics for Printed Kazakh Book OCR
 
 This repository provides reproducible code, aggregate evidence, and figure-generation assets for examining the reliability of OCR evaluation on printed Kazakh books.
 
@@ -131,15 +131,6 @@ Historical OCR inference and external spelling services cannot be reconstructed 
 - validation/ contains release test and exclusion receipts.
 
 [Included-file manifest](MANIFEST.json) · [Staging provenance and additions](STAGING_PROVENANCE.json) · [Validation receipt](validation/release_validation.json) · [Exclusion verification](validation/EXCLUSION_VERIFICATION.md)
-
-## Repository contributors
-
-The repository-level human contributors are:
-
-- [Ahsan Habib Shihab](https://github.com/ahsan-h-shihab)
-- [Iskander Akhmetov](https://github.com/iskander-akhmetov)
-
-This list identifies repository contributors without assigning additional roles. The associated manuscript retains its six scholarly authors and approved citation title.
 
 ## Citation and reuse
 
